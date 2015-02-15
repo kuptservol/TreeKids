@@ -1,0 +1,15 @@
+---------- Date: 2015-01-28 02:16:27 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /admin/index.php?route=module/kuler_testimonial&amp;token=b018aec59c85d303f659cc5965b08155
+MOD DETAILS:
+   modFile   : D:\work\openServer\OpenServer\domains\treeKidsDecao\vqmod/xml/kulerthemes_cp.xml
+   id        : KulerThemes
+   version   : 
+   vqmver    : 
+   author    : kulerthemes.com
+
+File Name    : admin/view/template/module/*.tpl(1)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): html += '      <option value="content_top"><?php echo $text_content_top; ?></option>';
+
+----------------------------------------------------------------------
+
+

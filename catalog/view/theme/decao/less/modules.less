@@ -1,0 +1,1025 @@
+@import (reference) "elements.less";
+/*--------------------------------------------
+Carousel
+----------------------------------------------*/
+.jcarousel-skin-opencart{
+  .jcarousel-container {
+    background-color: #FFF;
+    margin: 0;
+    &:hover {
+      .jcarousel-prev,.jcarousel-next {
+        opacity: 1;
+      }
+    }
+  }
+  .jcarousel-direction-rtl {
+    direction: rtl;
+  }
+  .jcarousel-container-horizontal {
+    padding: 25px 40px;
+  }
+  .jcarousel-clip {
+    overflow: hidden;
+    width: 100%;
+  }
+  .jcarousel-clip-horizontal {
+  }
+  .jcarousel-item {
+    text-align: center;
+  }
+  .jcarousel-item-horizontal {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .jcarousel-direction-rtl .jcarousel-item-horizontal {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+  }
+  .jcarousel-prev,.jcarousel-next{
+    position: absolute;
+    cursor: pointer;
+    z-index: 20;
+    display:block;
+    top: 50%;
+    margin-top: -15px;
+    vertical-align: middle;
+    background-color: rgba(240, 156, 130, 0.7);
+    text-align: center;
+    opacity: 0;
+    .transition();
+  }
+  .jcarousel-prev{
+    left: 0;
+  }
+  .jcarousel-next{
+    right: 0;
+  }
+  .jcarousel-prev:before{
+    font-size: 25px;
+    color: #000000;
+    .kulerfont;
+    content: '\f104';
+    width: 32px;
+    height: 32px;
+    display: block;
+    line-height: 32px;
+    text-align: center;
+  }
+  .jcarousel-next:before{
+    font-size: 25px;
+    color: #000000;
+    .kulerfont;
+    content: '\f105';
+    width: 32px;
+    height: 32px;
+    display: block;
+    line-height: 32px;
+    text-align: center;
+  }
+}
+/*--------------------------------------------
+Kuler Filter
+----------------------------------------------*/
+.kuler-filter{
+  .box{
+    background-color: #fcfcfc;
+    padding: 20px;
+  }
+  .buttons{
+    margin-top: 20px;
+  }
+  .ui-slider-horizontal .ui-slider-handle{
+    .rounded(0);
+    width: 10px;
+    background: #444;
+    border: none;
+  }
+  .ui-slider-horizontal .ui-slider-range{
+    background: #F09C82;
+    .rounded(0);
+    border: none;
+  }
+  .ui-slider-horizontal{
+    .rounded(0);
+    margin: 0 10px;
+  }
+  select{
+    width: 100%;
+  }
+}
+/*--------------------------------------------
+Kuler Layer Slider
+----------------------------------------------*/
+.tp-bullets.simplebullets.square-old .bullet{
+  background: none !important;
+  border: 2px solid #A1CF9C;
+  display: inline-block;
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 10px;
+  margin: 0 6px;
+}
+.tp-bullets.simplebullets.square-old .bullet.selected{
+  border-color: #ffffff;
+}
+/*--------------------------------------------
+Kuler Slide
+----------------------------------------------*/
+.kuler-slides{
+  .jcarousel-skin-opencart .jcarousel-container-horizontal{
+    padding: 0;
+  }
+  .box-heading{
+    line-height: 32px;
+    margin-bottom: 50px;
+  }
+  .product-grid .col-lg-3{
+    margin-top: 10px;
+  }
+}
+/*--------------------------------------------
+Kuler Accordion
+----------------------------------------------*/
+.kuler-accordion {
+  margin-bottom: 50px;
+  .item-title {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #aaaaaa;
+    span {
+      display: inline-block;
+      line-height: 48px;
+      padding-left: 15px;
+      padding-right: 15px;
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+    }
+    &.selected {
+      background-color: #444444;
+    }
+  }
+  .box-product {
+    background-color: #fff;
+    margin: 0;
+    .clear;
+  }
+  .right{
+    padding-bottom: 15px;
+  }
+  .product-list > div{
+    margin: 0;
+    font-size: 0;
+    padding: 0;
+    &:hover{
+      border-color: transparent;
+    }
+  }
+  .item-content {
+    background-color: #fff;
+  }
+  .product-list .rating{
+    display: inline-block;
+  }
+}
+/* HORIZONTAL */
+.kuler-accordion {
+  .horizontal {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    box-sizing: content-box;
+    background-color: #fff;
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .horizontal .item-title,
+  .horizontal .item-content {
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+  }
+  .horizontal .item-title {
+    top: 0;
+    left: 0;
+    z-index: 2;
+    text-align: right;
+    border-bottom: 1px solid #ffffff;
+    transform: translateX(-100%) rotate(-90deg);
+    -moz-transform: translateX(-100%) rotate(-90deg);
+    -webkit-transform: translateX(-100%) rotate(-90deg);
+    transform-origin: right top;
+    -moz-transform-origin: right top;
+    -webkit-transform-origin: right top;
+    -webkit-backface-visibility: hidden; /* fixes chrome bug */
+  }
+  .horizontal .item-content {
+    top: -1px;
+    margin: 0;
+    border-top: none;
+    border-left: none;
+  }
+}
+/* IE */
+.kuler-accordion{
+  .horizontal.box-content.ie .item-title,
+  .horizontal.box-content.ie .item-title span {
+    filter: none;
+    -ms-filter: none;
+    -ms-transform: none
+  }
+  .horizontal.box-content.ie7 .item-title {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3)
+  }
+  .horizontal.box-content.ie8 .item-title {
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)"
+  }
+  .horizontal.box-content.ie9 .item-title {
+    -ms-transform: translateX(-100%) rotate(-90deg);
+    -ms-transform-origin: right top
+  }
+}
+/* VERTICAL */
+.kuler-accordion {
+  .vertical .item-content {
+    overflow: hidden;
+  }
+}
+/*custom */
+.kuler-accordion{
+  .box-product > div:hover a img{
+    .translate(0,0);
+  }
+}
+/*--------------------------------------------
+Kuler Testimonial
+----------------------------------------------*/
+.kt-module{
+  background: url("../image/testimonial_bg.jpg");
+  background-attachment: fixed;
+  padding: 100px 0 65px;
+  margin: 0 -100%;
+  .device{
+    border: none;
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+  .swiper-slide{
+    width: 900px !important;
+    height: auto !important;
+    img{
+      .rounded(100%);
+      margin-bottom: 30px;
+    }
+  }
+  .swiper-wrapper{
+    height: auto !important;
+  }
+  .swiper-horizontal,
+  .swiper-container{
+    width: auto;
+    height: auto;
+  }
+  .swiper-container{
+    padding-bottom: 80px;
+  }
+  .slide-content{
+    font-size: 17px;
+  }
+  .extra-heading:after {
+    background-color: #fff;;
+  }
+  .writer_name{
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: none;
+  }
+  .swiper-pagination-switch{
+    .box-shadow(none);
+    background: none;
+    border: 2px solid #999;
+  }
+  .swiper-active-switch{
+    border-color: #FFFFFF;
+  }
+}
+.swiper-container{
+  width: 300px;
+  height: auto;
+  @media @md {
+    width: 600px;
+  }
+  @media @lg {
+    width: 900px;
+  }
+}
+/*--------------------------------------------
+Kuler Tabs
+----------------------------------------------*/
+.ui-tabs .ui-tabs-panel{
+  padding: 0;
+}
+.kuler-tabs {
+  background: none;
+  border: none;
+  margin-bottom: 3b0px;
+  .clear;
+  .title{
+    text-align: center;
+    margin-bottom: 50px;
+    overflow: hidden;
+    ul{
+      display: inline-block !important;
+      position: relative;
+      overflow: visible !important;
+      &:before{
+        content: "";
+        position: absolute;
+        width: 5000px;
+        height: 1px;
+        background-color: #eee;
+        top: 48%;
+        left: -1020px;
+      }
+      &:after{
+        left: auto;
+        right: -1020px;
+      }
+    }
+  }
+  .ui-tabs-hide{
+    display: none;
+  }
+  .box-heading {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+    background: none;
+    border: none;
+    li {
+      display: inline-block;
+      padding-right: 0;
+      vertical-align: top;
+      font-size: 18px;
+      float: none;
+      border: none;
+      background: none;
+      background-color: #fff;
+      a{
+        color: #aaa;
+        font-weight: 500;
+        font-size: 24px;
+        text-transform: none;
+        float: none;
+        position: relative;
+      }
+      &.ui-state-default{
+        display: none;
+      }
+      &.ui-state-active{
+        display: inline-block;
+        a{
+          color: #444444;
+        }
+      }
+    }
+    .btn-tabs-toggle {
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      background: none;
+      position: absolute;
+      &:before{
+        display: none;
+      }
+    }
+  }
+  .collapse{
+    .ui-state-default{
+      display: none;
+    }
+  }
+  .expand{
+    li{
+      display: inline-block;
+      z-index: 2;
+    }
+    .ui-state-default{
+      display: inline-block;
+    }
+    .ui-state-active{
+      z-index: 0;
+    }
+  }
+}
+/*--------------------------------------------
+Kuler Contact Form
+----------------------------------------------*/
+.kcf-module{
+  .box{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  input,
+  textarea{
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #FFF;
+    padding: 15px;
+  }
+  button {
+    color: #2C2C2C;
+    background-color: transparent;
+    padding: 10px 25px;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  p{
+    margin-bottom: 10px;
+  }
+  .footer-top &{
+    margin-top: 50px;
+    padding-bottom: 75px;
+  }
+  .box-heading{
+    &:before{
+      display: none;
+    }
+  }
+  .kcf-field-name {
+    margin-top: 0;
+  }
+}
+/*--------------------------------------------
+Kuler Blog Manager
+----------------------------------------------*/
+/*recent article*/
+.footer-top .articles {
+  li {
+    text-align: center;
+    >div {
+      background-color: #fff;
+    }
+    text-align: center;
+    .image {
+      overflow: hidden;
+      position: relative;
+      margin-bottom: 35px;
+    }
+    a{
+      font-family: Trocchi;
+      display: block;
+      font-size: 18px;
+      font-weight: 500;
+      color: #202020;
+      &:hover{
+        color:#222;
+      }
+    }
+    img{
+      .transi;
+    }
+    span{
+      color: #666;
+    }
+  }
+  li:hover img {
+    -webkit-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+  }
+}
+/* recent-article */
+.kbm-recent-article{
+  padding: 70px 0;
+  .box-heading {
+    font-size: 27px;
+    text-transform: capitalize;
+    span {
+      &:before {
+
+      }
+    }
+  }
+  .box-content {
+    margin-top: 10px;
+  }
+  .image {
+    &:hover {
+      .link {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+  .link{
+    .absolute-center;
+    background-color: rgba(0, 0, 0, .2);
+    visibility: hidden;
+    opacity: 0;
+    .transi;
+    a{
+      font-size: 42px !important;
+      color: #ffffff !important;
+      top: 42%;
+      position: absolute;
+      left: 45%;
+    }
+  }
+
+  .article-title {
+    margin-bottom: 30px;
+    &:after {
+      content: '';
+      display: block;
+      background: #2D2D2D;
+      width: 20px;
+      height: 1px;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  }
+
+  .article-details {
+    padding: 0 5px;
+    p {
+      margin: 30px 0;
+    }
+  }
+  .article-info {
+    text-align: left;
+    margin: 0 15px;
+    border-top: 1px solid #EEE;
+    padding: 15px 0 30px 0;
+  }
+}
+/*related articles*/
+.related-articles {
+  margin-bottom: 30px;
+  ul{
+    margin: 0;
+    width: auto;
+    li{
+      margin: 0 0 5px 20px;
+      list-style: disc;
+    }
+    a{
+      font-size: 14px !important;
+    }
+  }
+  h4 {
+    letter-spacing: 2px;
+    font-family: Questrial;
+    font-size: 18px;
+    color: #222222;
+    margin-bottom: 30px;
+  }
+}
+/*sidebar settings*/
+.col-md-4{
+  .articles{
+    li {
+      a{
+        display: block;
+      }
+      p{
+        padding: 0 0 15px;
+        margin: 0;
+        font-size: 13px;
+      }
+    }
+  }
+}
+.article {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #fff;
+  margin-bottom: 30px !important;
+  border-bottom: 1px solid #eee;
+  .read-more {
+    text-align: left;
+    padding: 11px 23px;
+    display: inline-block;
+    clear: both;
+    background: #F09C82;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .article-image{
+    margin-right: 25px !important;
+  }
+  .article-content {
+    padding: 20px 0 50px 0;
+  }
+  .last-update {
+    margin-bottom: 40px;
+  }
+}
+.article-list + .pagination,
+.comment-list + .pagination {
+  border: none;
+  padding: 0;
+}
+
+.comment-stats {
+  color: #444;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #EEEEEE;
+  font-size: 18px;
+}
+.article-extra-info {
+  font-size: 0;
+  color: #858585;
+  margin-bottom: 10px;
+  time,a{
+    color: #858585;
+    font-size: 13px;
+    margin-right: 15px;
+    font-weight: 300;
+  }
+  .author:before {
+    .kulerfont;
+    content: "\e60e";
+    font-size: 14px;
+    margin-right: 3px;
+    color: #888;
+  }
+  .category:before {
+    .kulerfont;
+    content: "\e610";
+    font-size: 14px;
+    margin-right: 5px;
+    color: #888;
+  }
+  .comment-total:before {
+    .kulerfont;
+    content: "\e612";
+    font-size: 14px;
+    margin-right: 5px;
+    color: #888;
+  }
+}
+.comment-stats:before {
+  .kulerfont;
+  content: "\e612";
+  margin-right: 3px;
+  color: #888;
+}
+.article-extra-info time:before {
+  .kulerfont;
+  content: "\e60c";
+  font-size: 14px;
+  margin-right: 3px;
+  color: #888;
+}
+
+/* Comment section */
+.comment-container {
+  padding-top: 50px !important;
+  background-color: transparent !important;
+  border-top: 1px solid #EEEEEE;
+  padding: 0;
+  .pagination {
+    margin-bottom: 20px;
+  }
+}
+.comment-list {
+  .date {
+    margin-left: 0 !important;
+    color: #888888;
+  }
+  .comment {
+    padding: 0;
+    margin: 0;
+    p {
+      margin-left: 0 !important;
+    }
+    .author {
+      margin-left: 0 !important;
+    }
+    .avatar {
+      margin-right: 30px;
+    }
+    .message {
+      display: inline-block;
+      width: 80%;
+    }
+  }
+  .reply-list {
+    .comment.even {
+      background-color: #EEEEEE;
+    }
+  }
+
+  .comment-extra-info {
+    div {
+      width: auto;
+      display: inline-block;
+    }
+  }
+  .reply a {
+    background-color: transparent;
+    color: #444444;
+    text-transform: uppercase;
+    margin-left: 25px;
+  }
+}
+
+#comment-form-container {
+  border-top: 1px solid #EEEEEE ;
+  padding-top: 50px;
+}
+#comment-form-title {
+  font-family: Questrial;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+#comment-form {
+  textarea {
+    background-color: #F8F8F8;
+  }
+}
+
+.author-name {
+  font-size: 16px;
+  font-weight: 400;
+}
+.article-header {
+  h2 {
+    margin-bottom: 10px;
+    text-transform: none;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+.article-content p{
+  font-weight: 300;
+}
+.kbm-latest-comment ul,
+.kbm-latest-comment li {
+  margin: 0;
+}
+.kbm-latest-comment li {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #EEEEEE;
+}
+.kbm-latest-comment li a {
+  color: #444;
+}
+#form-comment .validator input,
+#form-comment .validator img{
+  vertical-align: middle;
+}
+#form-comment{
+  td{
+    padding: 10px 10px 10px 0;
+  }
+}
+/*--------------------------------------------
+Kuler Showcase
+----------------------------------------------*/
+.kuler-showcase-module{
+  margin-bottom: 30px;
+  position: relative;
+  .box-heading {
+    letter-spacing: 1.4px;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin: 95px 0 70px 0;
+    position: relative;
+    overflow: hidden;
+    &:after {display: none;}
+    span {
+      display: inline-block;
+      position: relative;
+      &:after {
+        content: "";
+        position: absolute;
+        width: 1500px;
+        height: 7px;
+        border-bottom: 1px solid #DDDDDD;
+        border-top: 1px solid #DDDDDD;
+        top: 50%;
+        margin-top: -3.5px;
+        right: -1520px;
+      }
+    }
+  }
+  .tab-heading{
+    margin: 95px 0 70px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    font-size: 0px;
+    span{
+      display: block;
+      padding: 10px 20px;
+      font-size: 15px;
+      background-color: #fff;
+      color: #999;
+      cursor: pointer;
+      .transi;
+    }
+    .active{
+      color: #313131;
+    }
+  }
+  .nav{
+    span{
+      font-size: 0;
+      position: absolute;
+      top: 15px;
+      right: 0;
+      &:before{
+     .iconfont;
+        content: "\f105";
+        font-size: 20px;
+        color: #313131;
+        display: block;
+        line-height: 32px;
+        text-align: center;
+      }
+      &.prev{
+        right: 33px;
+        &:before{
+          content: "\f104";
+        }
+      }
+    }
+  }
+}
+//deal
+.product-deal-countdown{
+  display: none;
+  position: absolute;
+  >span >span{
+    display: inline-block;
+    width: 60px;
+    line-height: 1;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    padding: 10px 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #313133;
+    span{
+      display: block;
+      margin-bottom: 4px;
+      &:first-child{
+        font-weight: 500;
+        font-size: 20px;
+      }
+    }
+  }
+}
+.sidebar{
+  .product-deal-countdown {
+    margin-bottom: 0;
+    > span > span {
+      width: 55px;
+      padding: 5px 0;
+    }
+  }
+  .inf,.rating{
+    display: none;
+  }
+  .kuler-showcase-module [class*="col"]{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .product-grid > div{
+    border-bottom: 1px solid #eeeeee;
+  }
+}
+.showcase{
+  .item.html{
+    padding: 0;
+  }
+  .container{
+    background-color: #fff;
+  }
+}
+.swiper-container {
+  margin:0 auto;
+  position:relative;
+  overflow:hidden;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -ms-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  backface-visibility:hidden;
+  /* Fix of Webkit flickering */
+  z-index:1;
+}
+.swiper-wrapper {
+  position:relative;
+  width:100%;
+  -webkit-transition-property:-webkit-transform, left, top;
+  -webkit-transition-duration:0s;
+  -webkit-transform:translate3d(0px,0,0);
+  -webkit-transition-timing-function:ease;
+
+  -moz-transition-property:-moz-transform, left, top;
+  -moz-transition-duration:0s;
+  -moz-transform:translate3d(0px,0,0);
+  -moz-transition-timing-function:ease;
+
+  -o-transition-property:-o-transform, left, top;
+  -o-transition-duration:0s;
+  -o-transform:translate3d(0px,0,0);
+  -o-transition-timing-function:ease;
+  -o-transform:translate(0px,0px);
+
+  -ms-transition-property:-ms-transform, left, top;
+  -ms-transition-duration:0s;
+  -ms-transform:translate3d(0px,0,0);
+  -ms-transition-timing-function:ease;
+
+  transition-property:transform, left, top;
+  transition-duration:0s;
+  transform:translate3d(0px,0,0);
+  transition-timing-function:ease;
+
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.swiper-free-mode > .swiper-wrapper {
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -ms-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  margin: 0 auto;
+}
+.swiper-slide {
+  float: left;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {
+  -ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+  -ms-touch-action: pan-x;
+}
+
+//Your custom styles, here you need to specify container's and slide's sizes, pagination, etc.
+.swiper-container {
+  /* Specify Swiper's Size: */
+
+  width: 100%;
+}
+.swiper-slide {
+  /* Specify Slides's Size: */
+
+  width: 100%;
+  height: 100%;
+  cursor: -webkit-grab;
+}
+.swiper-slide-active {
+  /* Specific active slide styling: */
+}
+.swiper-slide-visible {
+  /* Specific visible slide styling: */
+
+}
+//Pagination Styles
+.swiper-pagination-switch {
+  /* Stylize pagination button: */
+
+}
+.swiper-active-switch {
+  /* Specific active button style: */
+
+}
+.swiper-visible-switch {
+  /* Specific visible button style: */
+
+}
