@@ -36,7 +36,7 @@ $_['column_status']      = 'Status';
 // Entry
 $_['entry_order_id']     = 'Order ID:';
 $_['entry_date_ordered'] = 'Order Date:';
-$_['entry_firstname']    = 'First Name:';
+$_['entry_firstname']    = 'Имя:';
 $_['entry_lastname']     = 'Last Name:';
 $_['entry_email']        = 'E-Mail:';
 $_['entry_telephone']    = 'Telephone:';
@@ -51,7 +51,7 @@ $_['entry_captcha']      = 'Enter the code in the box below:';
 // Error
 $_['text_error']         = 'The returns you requested could not be found!';
 $_['error_order_id']     = 'Order ID required!';
-$_['error_firstname']    = 'First Name must be between 1 and 32 characters!';
+$_['error_firstname']    = 'Имя must be between 1 and 32 characters!';
 $_['error_lastname']     = 'Last Name must be between 1 and 32 characters!';
 $_['error_email']        = 'E-Mail Address does not appear to be valid!';
 $_['error_telephone']    = 'Telephone must be between 3 and 32 characters!';
