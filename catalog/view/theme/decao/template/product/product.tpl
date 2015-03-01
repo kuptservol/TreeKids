@@ -96,18 +96,18 @@ $kuler->language->load('kuler/decao');
   <?php } ?>
   <div class="description">
     <h2><?php echo $kuler->language->get('text_product_details'); ?></h2>
-    <?php if ($manufacturer) { ?>
+   <!-- skuptsov <?php if ($manufacturer) { ?> 
       <?php if ($kuler->getSkinOption('show_brand_logo')) { ?>
         <a href="<?php echo $manufacturers; ?>"><img src="<?php echo $kuler->getManufacturerImage($product_id); ?>" alt="<?php echo $manufacturer; ?>" /></a><br />
       <?php } else { ?>
         <span><?php echo $text_manufacturer; ?></span> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a><br />
       <?php } ?>
-    <?php } ?>
+    <?php } ?> 
     <span><?php echo $text_model; ?></span> <?php echo $model; ?><br />
     <?php if ($reward) { ?>
       <span><?php echo $text_reward; ?></span> <?php echo $reward; ?><br />
     <?php } ?>
-    <span><?php echo $text_stock; ?></span> <?php echo $stock; ?></div>
+    <span><?php echo $text_stock; ?></span> <?php echo $stock; ?></div> -->
   <?php if ($options) { ?>
     <div class="options">
       <h2><?php echo $text_option; ?></h2>

@@ -498,3 +498,10 @@ admin\view\template\catalog\manufacturer_form.tpl
 admin\controller\catalog\download.php
 admin\language\english\catalog\download.php
 admin\view\template\catalog\download_list.tpl
+catalog\view\theme\decao\template\common\_list_product.tpl
+admin\controller\module\banner.php
+admin\model\design\banner.php
+admin\controller\module\carousel.php
+admin\controller\module\category.php
+admin\controller\module\featured.php
+admin\controller\module\slideshow.php
