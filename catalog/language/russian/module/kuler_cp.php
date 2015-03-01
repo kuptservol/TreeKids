@@ -12,8 +12,8 @@ $_['error_your_email_is_already_subscribed_to_list']                            
 $_['text_already_registered_click_here_to_login']   = 'Already registered? Click here to login';
 
 $_['text_opcheckout_shipping_method']   = 'Delivery Method';
-$_['text_opcheckout_payment_method']    = 'Payment Method';
-$_['text_opcheckout_confirm']           = 'Confirm Order';
+$_['text_opcheckout_payment_method']    = 'Способ оплаты';
+$_['text_opcheckout_confirm']           = 'Подтвердить заказ';
 $_['error_shipping_method']             = 'No Shipping Method';
 $_['error_payment_method']             = 'No Payment Method';
 

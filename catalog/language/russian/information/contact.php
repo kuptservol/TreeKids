@@ -13,7 +13,7 @@ $_['text_message']   = '<p>Your enquiry has been successfully sent to the store 
 
 // Entry Fields
 $_['entry_name']     = 'Имя:';
-$_['entry_email']    = 'E-Mail Address:';
+$_['entry_email']    = 'E-Mail Адрес:';
 $_['entry_enquiry']  = 'Enquiry:';
 $_['entry_captcha']  = 'Enter the code in the box below:';
 

@@ -1,6 +1,6 @@
 <?php
 // Heading  
-$_['heading_title']          = 'Shopping Cart';
+$_['heading_title']          = 'Корзина';
 
 // Text
 $_['text_success']           = 'Success: You have added <a href="%s">%s</a> to your <a href="%s">shopping cart</a>!';
@@ -34,12 +34,12 @@ $_['text_month']             = 'month';
 $_['text_year']              = 'year';
 
 // Column
-$_['column_image']           = 'Image';
+$_['column_image']           = 'Изображение';
 $_['column_name']            = 'Product Name';
-$_['column_model']           = 'Model';
-$_['column_quantity']        = 'Quantity';
+$_['column_model']           = 'Модель';
+$_['column_quantity']        = 'Количество';
 $_['column_price']           = 'Unit Price';
-$_['column_total']           = 'Total';
+$_['column_total']           = 'Всего';
 
 // Entry
 $_['entry_coupon']           = 'Enter your coupon here:';

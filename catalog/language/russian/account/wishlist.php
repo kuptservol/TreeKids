@@ -12,9 +12,9 @@ $_['text_remove']   = 'Success: You have modified your wishlist!';
 $_['text_empty']    = 'Your wish list is empty.';
 
 // Column
-$_['column_image']  = 'Image';
+$_['column_image']  = 'Изображение';
 $_['column_name']   = 'Product Name';
-$_['column_model']  = 'Model';
+$_['column_model']  = 'Модель';
 $_['column_stock']  = 'Stock';
 $_['column_price']  = 'Unit Price';
 $_['column_action'] = 'Action';

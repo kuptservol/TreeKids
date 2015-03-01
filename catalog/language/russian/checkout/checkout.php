@@ -1,9 +1,9 @@
 <?php
 // Heading 
-$_['heading_title']                  = 'Checkout';
+$_['heading_title']                  = 'Оформить заказ';
 
 // Text
-$_['text_cart']                      = 'Shopping Cart';
+$_['text_cart']                      = 'Корзина';
 $_['text_checkout_option']           = 'Step 1: Checkout Options';
 $_['text_checkout_account']          = 'Step 2: Account &amp; Billing Details';
 $_['text_checkout_payment_address']  = 'Step 2: Billing Details';
@@ -43,13 +43,13 @@ $_['text_year']                      = 'year';
 
 // Column
 $_['column_name']                    = 'Product Name';
-$_['column_model']                   = 'Model';
-$_['column_quantity']                = 'Quantity';
+$_['column_model']                   = 'Модель';
+$_['column_quantity']                = 'Количество';
 $_['column_price']                   = 'Price';
-$_['column_total']                   = 'Total';
+$_['column_total']                   = 'Всего';
 
 // Entry
-$_['entry_email_address']            = 'E-Mail Address:';
+$_['entry_email_address']            = 'E-Mail Адрес:';
 $_['entry_email']                    = 'E-Mail:';
 $_['entry_password']                 = 'Password:';
 $_['entry_confirm']                  = 'Password Confirm:';
@@ -61,7 +61,7 @@ $_['entry_company']                  = 'Company:';
 $_['entry_customer_group']           = 'Business Type:';
 $_['entry_company_id']               = 'Company ID:';
 $_['entry_tax_id']                   = 'Tax ID:';
-$_['entry_address_1']                = 'Address 1:';
+$_['entry_address_1']                = 'Адрес 1';
 $_['entry_address_2']                = 'Address 2:';
 $_['entry_postcode']                 = 'Post Code:';
 $_['entry_city']                     = 'City:';
