@@ -42,13 +42,13 @@
 		<div class="right">
       <h1><?php echo $heading_title; ?></h1>
 			<div class="description">
-				<?php if ($manufacturer) { ?>
+			<!-- skuptsov	<?php if ($manufacturer) { ?>
 					<span><?php echo $text_manufacturer; ?></span> <a href="<?php echo $manufacturers; ?>" target="_top"><?php echo $manufacturer; ?></a><br />
 				<?php } ?>
 				<span><?php echo $text_model; ?></span> <?php echo $model; ?><br />
 				<?php if ($reward) { ?>
 					<span><?php echo $text_reward; ?></span> <?php echo $reward; ?><br />
-				<?php } ?>
+				<?php } ?>      -->
 				<span><?php echo $text_stock; ?></span> <?php echo $stock; ?></div>
 			<?php if ($price) { ?>
 				<div class="price">

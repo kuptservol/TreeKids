@@ -2656,3 +2656,60 @@
 2015-03-02 1:55:38 - PHP Notice:  Undefined index: 42 in D:\work\openServer\OpenServer\domains\treeKidsDecao\admin\controller\module\kuler_cp.php on line 630
 2015-03-02 1:55:38 - PHP Notice:  Undefined index: 30 in D:\work\openServer\OpenServer\domains\treeKidsDecao\admin\controller\module\kuler_cp.php on line 630
 2015-03-02 2:04:20 - PHP Notice:  Undefined index: slider_title in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\default\template\module\kuler_layer_slider.tpl on line 45
+2015-03-02 2:15:44 - PHP Notice:  Undefined index: slider_title in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\default\template\module\kuler_layer_slider.tpl on line 45
+2015-03-02 22:40:07 - PHP Notice:  Undefined index: slider_title in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\default\template\module\kuler_layer_slider.tpl on line 45
+2015-03-02 22:41:35 - PHP Notice:  Undefined index: slider_title in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\default\template\module\kuler_layer_slider.tpl on line 45
+2015-03-02 23:09:49 - PHP Notice:  Error: Could not load language module/helloworld! in D:\work\openServer\OpenServer\domains\treeKidsDecao\vqmod\vqcache\vq2-system_library_language.php on line 39
+2015-03-02 23:10:29 - PHP Notice:  Error: Could not load language module/helloworld! in D:\work\openServer\OpenServer\domains\treeKidsDecao\vqmod\vqcache\vq2-system_library_language.php on line 39
+2015-03-02 23:11:54 - PHP Notice:  Undefined variable: module_row in D:\work\openServer\OpenServer\domains\treeKidsDecao\vqmod\vqcache\vq2-admin_view_template_module_helloworld.tpl on line 5
+2015-03-02 23:12:40 - PHP Notice:  Undefined index: slider_title in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\default\template\module\kuler_layer_slider.tpl on line 45
+2015-03-02 23:13:30 - PHP Notice:  Undefined index: slider_title in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\default\template\module\kuler_layer_slider.tpl on line 45
+2015-03-02 23:23:08 - PHP Notice:  Error: Could not load language module/helloworld! in D:\work\openServer\OpenServer\domains\treeKidsDecao\vqmod\vqcache\vq2-system_library_language.php on line 39
+2015-03-02 23:23:08 - PHP Notice:  Undefined index: token in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\controller\module\helloworld.php on line 67
+2015-03-02 23:23:08 - PHP Notice:  Undefined index: token in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\controller\module\helloworld.php on line 73
+2015-03-02 23:23:08 - PHP Notice:  Undefined index: token in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\controller\module\helloworld.php on line 79
+2015-03-02 23:23:08 - PHP Notice:  Undefined index: token in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\controller\module\helloworld.php on line 85
+2015-03-02 23:23:08 - PHP Notice:  Undefined index: token in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\controller\module\helloworld.php on line 87
+2015-03-02 23:24:13 - PHP Notice:  Undefined index: token in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\controller\module\helloworld.php on line 67
+2015-03-02 23:24:13 - PHP Notice:  Undefined index: token in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\controller\module\helloworld.php on line 73
+2015-03-02 23:24:13 - PHP Notice:  Undefined index: token in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\controller\module\helloworld.php on line 79
+2015-03-02 23:24:13 - PHP Notice:  Undefined index: token in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\controller\module\helloworld.php on line 85
+2015-03-02 23:24:13 - PHP Notice:  Undefined index: token in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\controller\module\helloworld.php on line 87
+2015-03-02 23:24:20 - PHP Notice:  Undefined index: token in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\controller\module\helloworld.php on line 67
+2015-03-02 23:24:20 - PHP Notice:  Undefined index: token in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\controller\module\helloworld.php on line 73
+2015-03-02 23:24:20 - PHP Notice:  Undefined index: token in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\controller\module\helloworld.php on line 79
+2015-03-02 23:24:20 - PHP Notice:  Undefined index: token in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\controller\module\helloworld.php on line 85
+2015-03-02 23:24:20 - PHP Notice:  Undefined index: token in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\controller\module\helloworld.php on line 87
+2015-03-02 23:24:24 - PHP Notice:  Undefined index: slider_title in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\default\template\module\kuler_layer_slider.tpl on line 45
+2015-03-02 23:24:36 - PHP Notice:  Undefined variable: module_row in D:\work\openServer\OpenServer\domains\treeKidsDecao\vqmod\vqcache\vq2-admin_view_template_module_helloworld.tpl on line 5
+2015-03-02 23:25:25 - PHP Notice:  Error: Could not load template D:\work\openServer\OpenServer\domains\treeKidsDecao/catalog/view/theme/module/helloworld.tpl! in D:\work\openServer\OpenServer\domains\treeKidsDecao\vqmod\vqcache\vq2-system_engine_controller.php on line 90
+2015-03-02 23:26:26 - PHP Notice:  Undefined variable: module_row in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\helloworld.tpl on line 5
+2015-03-02 23:26:26 - PHP Notice:  Undefined variable: layouts in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\helloworld.tpl on line 11
+2015-03-02 23:26:26 - PHP Warning:  Invalid argument supplied for foreach() in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\helloworld.tpl on line 11
+2015-03-02 23:32:48 - PHP Notice:  Undefined variable: module_row in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\helloworld.tpl on line 5
+2015-03-02 23:32:48 - PHP Notice:  Undefined variable: layouts in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\helloworld.tpl on line 11
+2015-03-02 23:32:48 - PHP Warning:  Invalid argument supplied for foreach() in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\helloworld.tpl on line 11
+2015-03-02 23:32:51 - PHP Notice:  Undefined index: slider_title in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\default\template\module\kuler_layer_slider.tpl on line 45
+2015-03-02 23:32:55 - PHP Notice:  Undefined variable: module_row in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\helloworld.tpl on line 5
+2015-03-02 23:32:55 - PHP Notice:  Undefined variable: layouts in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\helloworld.tpl on line 11
+2015-03-02 23:32:55 - PHP Warning:  Invalid argument supplied for foreach() in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\helloworld.tpl on line 11
+2015-03-02 23:33:00 - PHP Notice:  Undefined index: slider_title in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\default\template\module\kuler_layer_slider.tpl on line 45
+2015-03-02 23:42:45 - PHP Notice:  Undefined index: slider_title in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\default\template\module\kuler_layer_slider.tpl on line 45
+2015-03-02 23:42:48 - PHP Notice:  Undefined variable: module_row in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\helloworld.tpl on line 5
+2015-03-02 23:42:48 - PHP Notice:  Undefined variable: layouts in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\helloworld.tpl on line 11
+2015-03-02 23:42:48 - PHP Warning:  Invalid argument supplied for foreach() in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\helloworld.tpl on line 11
+2015-03-02 23:46:29 - PHP Notice:  Undefined variable: module_row in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\helloworld.tpl on line 5
+2015-03-02 23:46:29 - PHP Notice:  Undefined variable: layouts in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\helloworld.tpl on line 11
+2015-03-02 23:46:29 - PHP Warning:  Invalid argument supplied for foreach() in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\helloworld.tpl on line 11
+2015-03-02 23:52:57 - PHP Notice:  Undefined variable: module_row in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\treeKidsMap.tpl on line 5
+2015-03-02 23:52:57 - PHP Notice:  Undefined variable: layouts in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\treeKidsMap.tpl on line 11
+2015-03-02 23:52:57 - PHP Warning:  Invalid argument supplied for foreach() in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\treeKidsMap.tpl on line 11
+2015-03-03 0:00:35 - PHP Notice:  Undefined variable: module_row in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\treeKidsMap.tpl on line 5
+2015-03-03 0:00:35 - PHP Notice:  Undefined variable: layouts in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\treeKidsMap.tpl on line 11
+2015-03-03 0:00:35 - PHP Warning:  Invalid argument supplied for foreach() in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\treeKidsMap.tpl on line 11
+2015-03-03 0:00:43 - PHP Notice:  Undefined variable: module_row in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\treeKidsMap.tpl on line 5
+2015-03-03 0:00:43 - PHP Notice:  Undefined variable: layouts in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\treeKidsMap.tpl on line 11
+2015-03-03 0:00:43 - PHP Warning:  Invalid argument supplied for foreach() in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\treeKidsMap.tpl on line 11
+2015-03-03 0:00:58 - PHP Notice:  Undefined variable: module_row in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\treeKidsMap.tpl on line 5
+2015-03-03 0:00:58 - PHP Notice:  Undefined variable: layouts in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\treeKidsMap.tpl on line 11
+2015-03-03 0:00:58 - PHP Warning:  Invalid argument supplied for foreach() in D:\work\openServer\OpenServer\domains\treeKidsDecao\catalog\view\theme\module\treeKidsMap.tpl on line 11
