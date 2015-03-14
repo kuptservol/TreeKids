@@ -26,7 +26,7 @@
     <div id="content" class="<?php echo $class; ?>">
       <?php echo $content_top; ?>
       <div class="content">
-	  <script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=pyDjJk15Yv6B1b9xT5PMwM1KdgRUhxrj&width=600&height=450"></script>
+	  Текст миссии
       </div>
       <?php echo $content_bottom; ?>
     </div>

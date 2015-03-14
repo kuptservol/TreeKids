@@ -521,3 +521,6 @@ catalog\view\theme\module\helloworld.tpl
 catalog\controller\module\treeKidsMap.php
 catalog\language\russian\module\treeKidsMap.php
 catalog\view\theme\module\treeKidsMap.tpl
+catalog\controller\module\treeKidsMission.php
+catalog\language\russian\module\treeKidsMission.php
+catalog\view\theme\module\treeKidsMission.tpl

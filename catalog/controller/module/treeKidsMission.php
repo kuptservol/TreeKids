@@ -1,10 +1,10 @@
 <?php
-class ControllerModuleTreeKidsMap extends Controller {
+class ControllerModuleTreeKidsMission extends Controller {
 
 private $error = array(); // This is used to set the errors, if any.
  
 public function index() {   // Default function 
-    $this->language->load('module/treeKidsMap'); // Loading the language file of treeKidsMap 
+    $this->language->load('module/treeKidsMission'); // Loading the language file of treeKidsMission 
  
     $this->document->setTitle($this->language->get('heading_title')); // Set the title of the page to the heading title in the Language file i.e., Hello World
  
@@ -13,7 +13,7 @@ public function index() {   // Default function
  
  
     if (($this->request->server['REQUEST_METHOD'] == 'POST') && $this->validate()) { // Start If: Validates and check if data is coming by save (POST) method
-        $this->model_setting_setting->editSetting('treeKidsMap', $this->request->post);      // Parse all the coming data to Setting Model to save it in database.
+        $this->model_setting_setting->editSetting('treeKidsMission', $this->request->post);      // Parse all the coming data to Setting Model to save it in database.
  
         $this->session->data['success'] = $this->language->get('text_success'); // To display the success text on data save
  
@@ -61,13 +61,12 @@ public function index() {   // Default function
  
     /* Making of Breadcrumbs to be displayed on site*/
     $this->data['breadcrumbs'] = array();
-/* 
+ 
     $this->data['breadcrumbs'][] = array(
         'text'      => $this->language->get('text_home'),
-        'href'      => $this->url->link('common/home', 'token=' . $this->session->data['token'], 'SSL'),
+        'href'      => $this->url->link('common/home'),
         'separator' => false
     );
-	*/
 /*
     $this->data['breadcrumbs'][] = array(
         'text'      => $this->language->get('text_module'),
@@ -77,41 +76,40 @@ public function index() {   // Default function
  */
     $this->data['breadcrumbs'][] = array(
         'text'      => $this->language->get('heading_title'),
-        'href'      => $this->url->link('module/treeKidsMap'),
+        'href'      => $this->url->link('module/treeKidsMission'),
         'separator' => ' :: '
     );
  
     /* End Breadcrumb Block*/
  /*
-    $this->data['action'] = $this->url->link('module/treeKidsMap', 'token=' . $this->session->data['token'], 'SSL'); // URL to be directed when the save button is pressed
- 
+    $this->data['action'] = $this->url->link('module/treeKidsMission', 'token=' . $this->session->data['token'], 'SSL'); // URL to be directed when the save button is pressed
  
     $this->data['cancel'] = $this->url->link('extension/module', 'token=' . $this->session->data['token'], 'SSL'); // URL to be redirected when cancel button is pressed
  */
      
     /* This block checks, if the hello world text field is set it parses it to view otherwise get the default hello world text field from the database and parse it*/
  
-    if (isset($this->request->post['treeKidsMap_text_field'])) {
-        $this->data['treeKidsMap_text_field'] = $this->request->post['treeKidsMap_text_field'];
+    if (isset($this->request->post['treeKidsMission_text_field'])) {
+        $this->data['treeKidsMission_text_field'] = $this->request->post['treeKidsMission_text_field'];
     } else {
-        $this->data['treeKidsMap_text_field'] = $this->config->get('treeKidsMap_text_field');
+        $this->data['treeKidsMission_text_field'] = $this->config->get('treeKidsMission_text_field');
     }   
     /* End Block*/
  
     $this->data['modules'] = array();
  
     /* This block parses the Module Settings such as Layout, Position,Status & Order Status to the view*/
-    if (isset($this->request->post['treeKidsMap_module'])) {
-        $this->data['modules'] = $this->request->post['treeKidsMap_module'];
-    } elseif ($this->config->get('treeKidsMap_module')) { 
-        $this->data['modules'] = $this->config->get('treeKidsMap_module');
+    if (isset($this->request->post['treeKidsMission_module'])) {
+        $this->data['modules'] = $this->request->post['treeKidsMission_module'];
+    } elseif ($this->config->get('treeKidsMission_module')) { 
+        $this->data['modules'] = $this->config->get('treeKidsMission_module');
     }
     /* End Block*/         
  
     $this->load->model('design/layout'); // Loading the Design Layout Models
  
  
-    $this->template = 'module/treeKidsMap.tpl'; // Loading the treeKidsMap.tpl template
+    $this->template = 'module/treeKidsMission.tpl'; // Loading the treeKidsMission.tpl template
     $this->children = array(
             'common/column_left',
 			'common/column_right',
@@ -119,7 +117,7 @@ public function index() {   // Default function
 			'common/content_bottom',
 			'common/footer',
 			'common/header'		
-    );  // Adding children to our default template i.e., treeKidsMap.tpl 
+    );  // Adding children to our default template i.e., treeKidsMission.tpl 
  
     $this->response->setOutput($this->render()); // Rendering the Output
 }
@@ -128,13 +126,13 @@ public function index() {   // Default function
     protected function validate() {
  
         /* Block to check the user permission to manipulate the module*/
-        if (!$this->user->hasPermission('modify', 'module/treeKidsMap')) {
+        if (!$this->user->hasPermission('modify', 'module/treeKidsMission')) {
             $this->error['warning'] = $this->language->get('error_permission');
         }
         /* End Block*/
  
-        /* Block to check if the treeKidsMap_text_field is properly set to save into database, otherwise the error is returned*/
-        if (!$this->request->post['treeKidsMap_text_field']) {
+        /* Block to check if the treeKidsMission_text_field is properly set to save into database, otherwise the error is returned*/
+        if (!$this->request->post['treeKidsMission_text_field']) {
             $this->error['code'] = $this->language->get('error_code');
         }
         /* End Block*/

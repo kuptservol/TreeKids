@@ -60,9 +60,9 @@
             <?php echo $text_list; ?>
             <a onclick="display('grid');"><?php echo $text_grid; ?></a>
           </div>
-          <div class="col-lg-3 col-sm-6 product-compare">
+         <!-- skuptsov <div class="col-lg-3 col-sm-6 product-compare">
             <a href="<?php echo $compare; ?>" id="compare-total"><?php echo $text_compare; ?></a>
-          </div>
+          </div>  -->
             <div class="col-lg-4 col-sm-6 sort"><b><?php echo $text_sort; ?></b>
                 <select onchange="location = this.value;">
                     <?php foreach ($sorts as $sorts) { ?>

@@ -15,7 +15,7 @@ $_['text_no']               = 'No';
 $_['text_none']             = ' --- None --- ';
 $_['text_select']           = ' --- Please Select --- ';
 $_['text_all_zones']        = 'All Zones';
-$_['text_pagination']       = 'Showing {start} to {end} of {total} ({pages} Pages)';
+$_['text_pagination']       = 'Показываем с {start} по {end} из {total} ({pages} страница)';
 $_['text_separator']        = ' &raquo; ';
 
 // Buttons

@@ -24,6 +24,6 @@ $_['text_current_option_filter']                = 'Current Option Filter';
 $_['text_select_additional_option_filter']      = 'Select Additional Option Filter';
 
 $_['text_search']                               = 'Search';
-$_['text_price']                                = 'Price';
+$_['text_price']                                = 'Цена';
 
 $_['text_empty']                                = 'There are no products that match the filters.';

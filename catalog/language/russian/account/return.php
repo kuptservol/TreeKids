@@ -25,7 +25,7 @@ $_['text_agree']         = 'I have read and agree to the <a class="colorbox" hre
 $_['column_product']     = 'Product Name';
 $_['column_model']       = 'Модель';
 $_['column_quantity']    = 'Количество';
-$_['column_price']       = 'Price';
+$_['column_price']       = 'Цена';
 $_['column_opened']      = 'Opened';
 $_['column_comment']     = 'Comment';
 $_['column_reason']      = 'Reason';
