@@ -1,10 +1,12 @@
 <?php $kuler = Kuler::getInstance(); ?>
-<?php
+<!-- skuptsov <?php
 $modules = Kuler::getInstance()->getModules('footer_top');
+
 if ($modules) {
 echo '<div class="footer-top">'. implode('', $modules).'</div>';
+
 }
-?>
+?><!-- skuptsov
 <div class="bottom">
     <div class="container">
         <div class="row">
@@ -27,7 +29,7 @@ echo '<div class="footer-top">'. implode('', $modules).'</div>';
                     <?php echo $kuler->translate($kuler->getSkinOption('information_content')); ?>
                 </p>
                 <?php } ?>
-            </div><!--/.about-->
+            </div>
             <?php
 		    $modules = Kuler::getInstance()->getModules('footer_extra_info');
             if ($modules) {
@@ -37,7 +39,7 @@ echo '<div class="footer-top">'. implode('', $modules).'</div>';
             <?php } ?>
 
             <div class="col-md-3 col-sm-6 contact wow bounceInRight" data-wow-offset="100">
-                <!-- Contact -->
+                <!-- Contact
                 <?php if ($kuler->getSkinOption('show_contact')) { ?>
                 <?php if ($kuler->getSkinOption('show_contact_title')) { ?>
                 <h3><span><?php echo $kuler->translate($kuler->getSkinOption('contact_title')); ?></span></h3>
@@ -157,8 +159,9 @@ echo '<div class="footer-top">'. implode('', $modules).'</div>';
             </div>
             <?php } ?>
         </div>
-    </div><!--/.container-->
+    </div><!--/.container
 </div><!--/.footer-->
+
 <div class="social-newsletter">
     <div class="container">
         <div class="row">

@@ -69,9 +69,10 @@ $kuler->language->load('kuler/decao');
         <?php } ?>
       <?php } ?>
       <br />
+        <!--skuptsov
       <?php if ($tax && $kuler->getSkinOption('show_tax')) { ?>
         <span class="price-tax"><?php echo $text_tax; ?> <?php echo $tax; ?></span><br />
-      <?php } ?>
+      <?php } ?>-->
       <?php if ($points) { ?>
         <span class="reward"><small><?php echo $text_points; ?> <?php echo $points; ?></small></span><br />
       <?php } ?>
@@ -279,7 +280,7 @@ $kuler->language->load('kuler/decao');
     <div>
         <div class="cart" id="button-cart"><a><span><?php echo $button_cart; ?></span></a></div>
         <div class="wishlist"><a onclick="addToWishList('<?php echo $product_id; ?>');" class="button"><?php echo $button_wishlist; ?></a></div>
-        <div class="compare"><a onclick="addToCompare('<?php echo $product_id; ?>');"class="button"><?php echo $button_compare; ?></a></div>
+        <!-- skuptsov<div class="compare"><a onclick="addToCompare('<?php echo $product_id; ?>');"class="button"><?php echo $button_compare; ?></a></div>-->
     </div>
     <?php if ($minimum > 1) { ?>
       <div class="minimum"><?php echo $text_minimum; ?></div>
@@ -424,8 +425,8 @@ $kuler->language->load('kuler/decao');
                   <?php } ?>
               </div>
               <div class="details">
-                  <div class="compare"><a onclick="addToCompare('<?php echo $product['product_id']; ?>');"><span><?php echo $button_compare; ?></span></a></div>
-                  <div class="wishlist"><a onclick="addToWishList('<?php echo $product['product_id']; ?>');"><span><?php echo $button_wishlist; ?></span></a></div>
+                  <!-- skuptsov<div class="compare"><a onclick="addToCompare('<?php echo $product['product_id']; ?>');"><span><?php echo $button_compare; ?></span></a></div>
+                  <div class="wishlist"><a onclick="addToWishList('<?php echo $product['product_id']; ?>');"><span><?php echo $button_wishlist; ?></span></a></div>-->
                   <div class="cart"><a onclick="addToCart('<?php echo $product['product_id']; ?>');"><span><?php echo $button_cart; ?></span></a></div>
               </div>
           </div>

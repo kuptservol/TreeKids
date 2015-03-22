@@ -58,9 +58,10 @@
 						<span class="price-old"><?php echo $price; ?></span> <br /><span class="price-new"><?php echo $special; ?></span>
 					<?php } ?>
 					<br />
+                    <!-- skuptsov
 					<?php if ($tax) { ?>
 						<div class="price-tax"><?php echo $text_tax; ?> <?php echo $tax; ?></div>
-					<?php } ?>
+					<?php } ?>-->
 					<?php if ($points) { ?>
 						<span class="reward"><?php echo $text_points; ?> <?php echo $points; ?></span>
 					<?php } ?>

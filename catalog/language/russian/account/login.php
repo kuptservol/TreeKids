@@ -1,22 +1,22 @@
 <?php
 // Heading 
-$_['heading_title']                = 'Account Login';
+$_['heading_title']                = 'Войти в профиль';
 
 // Text
-$_['text_account']                 = 'Account';
+$_['text_account']                 = 'Профиль';
 $_['text_login']                   = 'Войти';
-$_['text_new_customer']            = 'New Customer';
-$_['text_register']                = 'Register Account';
-$_['text_register_account']        = 'By creating an account you will be able to shop faster, be up to date on an order\'s status, and keep track of the orders you have previously made.';
-$_['text_returning_customer']      = 'Returning Customer';
-$_['text_i_am_returning_customer'] = 'I am a returning customer';
-$_['text_forgotten']               = 'Forgotten Password';
+$_['text_new_customer']            = 'Новый клиент';
+$_['text_register']                = 'Зарегестрировать профиль';
+$_['text_register_account']        = 'Создав профиль, вы сможете совершать покупки намного быстрее и быть всегда в курсе статуса обновлений и отслеживать заказы, которые ранее сделали.';
+$_['text_returning_customer']      = 'Зарегестрированный клиент';
+$_['text_i_am_returning_customer'] = 'Уже есть профиль';
+$_['text_forgotten']               = 'Забыли пароль?';
 
 // Entry
 $_['entry_email']                  = 'E-Mail Адрес:';
-$_['entry_password']               = 'Password:';
+$_['entry_password']               = 'Пароль:';
 
 // Error
-$_['error_login']                  = 'Warning: No match for E-Mail Address and/or Password.';
-$_['error_approved']               = 'Warning: Your account requires approval before you can login.'; 
+$_['error_login']                  = 'Неверный логин или пароль';
+$_['error_approved']               = 'Необходимо подтвердить профиль, прежде чем вы сможете войти'; 
 ?>

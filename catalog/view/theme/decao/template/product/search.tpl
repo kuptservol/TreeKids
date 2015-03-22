@@ -169,8 +169,8 @@
                 <div class="rating"><img src="catalog/view/theme/default/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
               <?php } ?>
                 <div class="cart"><a onclick="addToCart('<?php echo $product['product_id']; ?>');"><span><?php echo $button_cart; ?></span></a></div>
-              <div class="wishlist"><a onclick="addToWishList('<?php echo $product['product_id']; ?>');"><?php echo $button_wishlist; ?></a></div>
-              <div class="compare"><a onclick="addToCompare('<?php echo $product['product_id']; ?>');"><?php echo $button_compare; ?></a></div>
+              <!--skuptsov<div class="wishlist"><a onclick="addToWishList('<?php echo $product['product_id']; ?>');"><?php echo $button_wishlist; ?></a></div>
+              <div class="compare"><a onclick="addToCompare('<?php echo $product['product_id']; ?>');"><?php echo $button_compare; ?></a></div>-->
               <?php if (Kuler::getInstance()->getSkinOption('show_quick_view')) { ?>
                 <div class="quick-view"><a href="<?php echo Kuler::getInstance()->getQuickViewUrl($product); ?>" class="quick_view"><?php echo $kuler->translate($kuler->getSkinOption('view_button_text')); ?></a> </div>
               <?php } ?>
@@ -255,8 +255,8 @@ function display(view) {
                 html += '<div class="quick-view">' + $(element).find('.quick-view').html() + '</div>';
             <?php } ?>
             html += '<div class="details">';
-            html += '  <div class="compare">' + $(element).find('.compare').html() + '</div>';
-            html += '  <div class="wishlist">' + $(element).find('.wishlist').html() + '</div>';
+            //skuptsov html += '  <div class="compare">' + $(element).find('.compare').html() + '</div>';
+            //html += '  <div class="wishlist">' + $(element).find('.wishlist').html() + '</div>';
             html += '  <div class="cart">' + $(element).find('.cart').html() + '</div>';
             html += '</div>';
       html += '</div>';

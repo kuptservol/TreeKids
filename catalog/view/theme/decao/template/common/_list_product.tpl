@@ -8,12 +8,12 @@
             <div class="image"><span class="no-image"><img src="image/no_image.jpg" alt="<?php echo $product['name']; ?>" /></span></div>
             <?php } ?>
             <div class="details">
-                <?php if(isset($setting['compare']) && $setting['compare']) { ?>
+                <!--<?php if(isset($setting['compare']) && $setting['compare']) { ?>
                 <div class="compare"><a onclick="addToCompare('<?php echo $product['product_id']; ?>');" title="<?php echo $button_compare; ?>"><span><?php echo $button_compare; ?></span></a></div>
-                <?php } ?>
-                <?php if(isset($setting['wishlist']) && $setting['wishlist']) { ?>
+                <?php } ?>-->
+                <!--<?php if(isset($setting['wishlist']) && $setting['wishlist']) { ?>
                 <div class="wishlist"><a onclick="addToWishList('<?php echo $product['product_id']; ?>');" title="<?php echo $button_wishlist; ?>"><span><?php echo $button_wishlist; ?></span></a></div>
-                <?php } ?>
+                <?php } ?>-->
                 <?php if(isset($setting['add']) && $setting['add']) { ?>
                 <div class="cart"><a onclick="addToCart('<?php echo $product['product_id']; ?>');" title="<?php echo $button_cart; ?>"><span><?php echo $button_cart; ?></span></a></div>
                 <?php } ?>

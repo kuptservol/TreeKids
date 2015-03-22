@@ -21,7 +21,7 @@ $_['entry_captcha']  = 'Введите код с картинки ниже:';
 $_['email_subject']  = 'Запрос %s';
 
 // Errors
-$_['error_name']     = 'Name must be between 3 and 32 characters!';
+$_['error_name']     = 'Имя должно быть от 1 до 32 символов!';
 $_['error_email']    = 'E-Mail Address does not appear to be valid!';
 $_['error_enquiry']  = 'Запрос должен быть от 10 до 3000 знаков!';
 $_['error_captcha']  = 'Verification code does not match the image!';

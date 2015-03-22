@@ -6,7 +6,7 @@ $_['heading_title']        = 'Зарегестрировать профиль';
 $_['text_account']         = 'Профиль';
 $_['text_register']        = 'Зарегестрироваться';
 $_['text_account_already'] = 'Если у вас уже есть профиль, пожалуйста, войдите <a href="%s">login page</a>.';
-$_['text_your_details']    = 'Your Personal Details';
+$_['text_your_details']    = 'Персональная информация';
 $_['text_your_address']    = 'Ваш адрес';
 $_['text_newsletter']      = 'Newsletter';
 $_['text_your_password']   = 'Ваш пароль';
@@ -34,19 +34,19 @@ $_['entry_confirm']        = 'Подтверждение пароля';
 
 // Error
 $_['error_exists']         = 'Внимание: E-Mail адрес уже зарегестрирован!';
-$_['error_firstname']      = 'Имя must be between 1 and 32 characters!';
-$_['error_lastname']       = 'Last Name must be between 1 and 32 characters!';
-$_['error_email']          = 'E-Mail Address does not appear to be valid!';
-$_['error_telephone']      = 'Telephone must be between 3 and 32 characters!';
-$_['error_password']       = 'Password must be between 4 and 20 characters!';
-$_['error_confirm']        = 'Password confirmation does not match password!';
+$_['error_firstname']      = 'Имя должно быть от 1 до 32 символов!';
+$_['error_lastname']       = 'Фамилия должна быть от 1 до 32 символов!';
+$_['error_email']          = 'E-Mail не валиден!';
+$_['error_telephone']      = 'Телефон долен быть от 3 до 32 символов!';
+$_['error_password']       = 'Пароль должен быть от 4 до 20 символов!';
+$_['error_confirm']        = 'Подтверждение пароля не совпадает с паролем!';
 $_['error_company_id']     = 'Company ID required!';
 $_['error_tax_id']         = 'Tax ID required!';
 $_['error_vat']            = 'VAT number is invalid!';
-$_['error_address_1']      = 'Address 1 must be between 3 and 128 characters!';
-$_['error_city']           = 'City must be between 2 and 128 characters!';
+$_['error_address_1']      = 'Адрес должен быть между 3 и 128 символами!';
+$_['error_city']           = 'Город должен быть между 3 и 128 символами!';
 $_['error_postcode']       = 'Postcode must be between 2 and 10 characters!';
 $_['error_country']        = 'Please select a country!';
 $_['error_zone']           = 'Please select a region / state!';
-$_['error_agree']          = 'Warning: You must agree to the %s!';
+$_['error_agree']          = 'Внимание: вы должны согласиться с %s!';
 ?>

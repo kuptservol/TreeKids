@@ -54,9 +54,9 @@
           <?php echo $content_top; ?>
           <h2><?php echo $heading_title; ?></h2>
           <?php if ($kuler->getSkinOption('show_custom_information')) { ?>
-            <div class="custom">
+            <!--skuptsov<div class="custom">
               <?php echo $kuler->translate($kuler->getSkinOption('custom_information')); ?>
-            </div>
+            </div>-->
           <?php } ?>
           <div class="row">
             <div class="col-md-3">
