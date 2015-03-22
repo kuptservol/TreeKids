@@ -1,7 +1,7 @@
 <?php
 // Text
 $_['text_title']                    = 'PayPal Express Checkout';
-$_['button_continue']               = 'Continue';
+$_['button_continue']               = 'Продолжить';
 $_['text_cart']                     = 'Корзина';
 $_['text_shipping_updated']         = 'Shipping service updated';
 $_['text_trial']                    = '%s every %s %s for %s payments then ';
@@ -16,7 +16,7 @@ $_['error_too_many_failures']       = 'Your payment has failed too many times';
 $_['express_text_title']            = 'Подтвердить заказ';
 $_['express_button_coupon']         = 'Add';
 $_['express_button_confirm']        = 'Confirm';
-$_['express_button_login']          = 'Continue to PayPal';
+$_['express_button_login']          = 'Продолжить to PayPal';
 $_['express_button_shipping']       = 'Update shipping';
 $_['express_entry_coupon']          = 'Enter your coupon here:';
 ?>

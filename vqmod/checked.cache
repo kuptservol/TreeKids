@@ -524,3 +524,9 @@ catalog\view\theme\module\treeKidsMap.tpl
 catalog\controller\module\treeKidsMission.php
 catalog\language\russian\module\treeKidsMission.php
 catalog\view\theme\module\treeKidsMission.tpl
+catalog\controller\information\information.php
+catalog\language\russian\information\information.php
+catalog\view\theme\decao\template\information\information.tpl
+catalog\controller\information\sitemap.php
+catalog\language\russian\information\sitemap.php
+catalog\view\theme\decao\template\information\sitemap.tpl

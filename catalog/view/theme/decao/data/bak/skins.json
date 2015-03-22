@@ -17,7 +17,7 @@
         "custom_css_file_status" : "false",
         "custom_css_status" : "false",
         "custom_information" : { "ar" : "",
-            "en" : "Say Hello! Don't be shy!"
+            "en" : ""
         },
         "custom_js_status" : "false",
         "custom_tab_1_content" : { "ar" : "fsfsdfsdfsdf",
@@ -245,7 +245,7 @@
             "custom_css_file_status" : "false",
             "custom_css_status" : "false",
             "custom_information" : { "ar" : "",
-                "en" : "<span style=\"font-size: 13px;\">Say Hello! Don't be shy!</span>"
+                "en" : ""
             },
             "custom_js_status" : "false",
             "custom_tab_1_content" : { "ar" : "",
@@ -450,7 +450,7 @@
             "custom_css_file_status" : "false",
             "custom_css_status" : "false",
             "custom_information" : { "ar" : "",
-                "en" : "Say hello! Don't be shy!"
+                "en" : ""
             },
             "custom_js_status" : "false",
             "custom_tab_1_content" : { "ar" : "",
@@ -652,7 +652,7 @@
             "custom_css_file_status" : "false",
             "custom_css_status" : "false",
             "custom_information" : { "ar" : "",
-                "en" : "Say Hello! Don't be shy!"
+                "en" : ""
             },
             "custom_js_status" : "false",
             "custom_tab_1_content" : { "ar" : "fsfsdfsdfsdf",

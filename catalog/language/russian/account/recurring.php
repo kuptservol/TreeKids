@@ -1,6 +1,6 @@
 <?php
 $_['heading_title'] = 'Recurring payments';
-$_['button_continue'] = 'Continue';
+$_['button_continue'] = 'Продолжить';
 $_['button_view'] = 'View';
 $_['button_cancel_profile'] = 'Cancel payments';
 $_['text_empty'] = 'No recurring payment profiles found';

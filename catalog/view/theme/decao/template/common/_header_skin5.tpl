@@ -9,11 +9,11 @@
 <div id="top-bar">
     <div class="container">
         <div class="row">
-          <div class="col-md-2 col-sm-12 extra">
+        <!--skuptsov  <div class="col-md-2 col-sm-12 extra">
             <?php echo $currency; ?>
             <?php echo $language; ?>
-          </div>
-            <div class="col-md-2 col-sm-12 ship">
+          </div>-->
+            <div class="col-md-4 col-sm-12 ship">
                 <?php
                 $modules = Kuler::getInstance()->getModules('header_extra_info');
                 if ($modules) {

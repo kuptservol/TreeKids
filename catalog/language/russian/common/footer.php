@@ -1,9 +1,9 @@
 <?php
 // Text
-$_['text_information']  = 'Information';
+$_['text_information']  = 'Информация';
 $_['text_service']      = 'Service';
 $_['text_extra']        = 'Extras';
-$_['text_contact']      = 'Contact Us';
+$_['text_contact']      = 'Свяжитесь с нами';
 $_['text_return']       = 'Returns';
 $_['text_sitemap']      = 'Site Map';
 $_['text_manufacturer'] = 'Brands';

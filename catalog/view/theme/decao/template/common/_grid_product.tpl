@@ -54,12 +54,13 @@
     <?php } ?>
     <?php if((isset($setting['add']) && $setting['add']) ||(isset($setting['wishlist']) && $setting['wishlist']) || (isset($setting['compare']) && $setting['compare'])) { ?>
     <div class="details">
+        <!-- skuptsov
         <?php if(isset($setting['compare']) && $setting['compare']) { ?>
         <div class="compare"><a onclick="addToCompare('<?php echo $product['product_id']; ?>');"><span><?php echo $button_compare; ?></span></a></div>
         <?php } ?>
         <?php if(isset($setting['wishlist']) && $setting['wishlist']) { ?>
         <div class="wishlist"><a onclick="addToWishList('<?php echo $product['product_id']; ?>');"><span><?php echo $button_wishlist; ?></span></a></div>
-        <?php } ?>
+        <?php } ?>-->
         <?php if(isset($setting['add']) && $setting['add']) { ?>
         <div class="cart"><a onclick="addToCart('<?php echo $product['product_id']; ?>');"><span><?php echo $button_cart; ?></span></a></div>
         <?php } ?>
