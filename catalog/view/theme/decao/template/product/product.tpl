@@ -85,6 +85,7 @@ $kuler->language->load('kuler/decao');
       <?php } ?>
     </div>
   <?php } ?>
+      <!--skuptsov
   <?php if ($review_status) { ?>
     <div class="review">
       <div>
@@ -94,10 +95,11 @@ $kuler->language->load('kuler/decao');
         <a onclick="$('a[href=\'#tab-review\']').trigger('click');"><?php echo $text_write; ?></a>
       </div>
     </div>
-  <?php } ?>
+  <?php } ?>-->
   <div class="description">
+      <!-- skuptsov
     <h2><?php echo $kuler->language->get('text_product_details'); ?></h2>
-   <!-- skuptsov <?php if ($manufacturer) { ?> 
+    <?php if ($manufacturer) { ?>
       <?php if ($kuler->getSkinOption('show_brand_logo')) { ?>
         <a href="<?php echo $manufacturers; ?>"><img src="<?php echo $kuler->getManufacturerImage($product_id); ?>" alt="<?php echo $manufacturer; ?>" /></a><br />
       <?php } else { ?>
@@ -108,7 +110,8 @@ $kuler->language->load('kuler/decao');
     <?php if ($reward) { ?>
       <span><?php echo $text_reward; ?></span> <?php echo $reward; ?><br />
     <?php } ?>
-    <span><?php echo $text_stock; ?></span> <?php echo $stock; ?></div> -->
+    <span><?php echo $text_stock; ?></span> <?php echo $stock; ?>-->
+    </div>
   <?php if ($options) { ?>
     <div class="options">
       <h2><?php echo $text_option; ?></h2>
@@ -279,7 +282,7 @@ $kuler->language->load('kuler/decao');
   <div class="details">
     <div>
         <div class="cart" id="button-cart"><a><span><?php echo $button_cart; ?></span></a></div>
-        <div class="wishlist"><a onclick="addToWishList('<?php echo $product_id; ?>');" class="button"><?php echo $button_wishlist; ?></a></div>
+        <!--<div class="wishlist"><a onclick="addToWishList('<?php echo $product_id; ?>');" class="button"><?php echo $button_wishlist; ?></a></div>-->
         <!-- skuptsov<div class="compare"><a onclick="addToCompare('<?php echo $product_id; ?>');"class="button"><?php echo $button_compare; ?></a></div>-->
     </div>
     <?php if ($minimum > 1) { ?>
@@ -299,9 +302,10 @@ $kuler->language->load('kuler/decao');
     <?php if ($attribute_groups) { ?>
       <a href="#tab-attribute"><?php echo $tab_attribute; ?></a>
     <?php } ?>
+      <!--skuptsov
     <?php if ($review_status) { ?>
       <a href="#tab-review" id="review-tab-title"><?php echo $tab_review; ?></a>
-    <?php } ?>
+    <?php } ?>-->
     <?php if ($kuler->getSkinOption('show_custom_tab_1')) { ?>
       <a href="#tab-custom-tab-1"><?php echo $kuler->translate($kuler->getSkinOption('custom_tab_1_title')); ?></a>
     <?php } ?>
@@ -331,6 +335,7 @@ $kuler->language->load('kuler/decao');
       </table>
     </div>
   <?php } ?>
+      <!--skuptsov
   <?php if ($review_status) { ?>
     <div id="tab-review" class="tab-content">
       <div id="review"></div>
@@ -364,7 +369,7 @@ $kuler->language->load('kuler/decao');
         <div class="right"><a id="button-review" class="button"><?php echo $button_continue; ?></a></div>
       </div>
     </div>
-  <?php } ?>
+  <?php } ?>-->
   <?php if ($kuler->getSkinOption('show_custom_tab_1')) { ?>
     <div id="tab-custom-tab-1" class="tab-content">
       <?php echo $kuler->translate($kuler->getSkinOption('custom_tab_1_content')); ?>
@@ -410,7 +415,8 @@ $kuler->language->load('kuler/decao');
                   <img src="image/no_image.jpg" alt="<?php echo $product['name']; ?>"/>
               </div>
               <?php } ?>
-              <div class="rating"><img src="catalog/view/theme/<?php echo $kuler->getTheme() ?>/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
+              <!-- skuptsov
+              <div class="rating"><img src="catalog/view/theme/<?php echo $kuler->getTheme() ?>/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>-->
               <div class="name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
               <div class="price">
                   <?php if (!$product['special']) { ?>

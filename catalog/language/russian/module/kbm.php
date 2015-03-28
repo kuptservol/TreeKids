@@ -1,7 +1,7 @@
 <?php
 
 // Text
-$_['text_search']           = 'Search';
+$_['text_search']           = 'Поиск';
 
 $_['text_read_more']        = 'Read more...';
 

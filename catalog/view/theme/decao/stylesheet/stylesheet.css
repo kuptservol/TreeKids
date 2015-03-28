@@ -2182,7 +2182,7 @@ Products Grid
 .product-grid .name a,
 .box-product .name a {
   color: #010101;
-  font-size: 14px;
+  font-size: 20px;
 }
 .product-grid .price,
 .box-product .price {
@@ -2226,6 +2226,9 @@ Products Grid
 .product-grid .description,
 .box-product .description {
   display: none;
+}
+.description-display {
+    display:inline-block;
 }
 /*--------------------------------------------
 Products List
@@ -6216,8 +6219,11 @@ General
     margin-top: 15px;
   }
   /*logo*/
+    /*skuptsov*/
   #header #logo {
     text-align: right;
+      position: relative;
+      top: 7px;
   }
   /*search*/
   .kuler-finder-result {

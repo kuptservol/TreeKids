@@ -27,7 +27,7 @@ $_['text_recurring_detail'] = 'Recurring payment details';
 $_['text_recurring_id'] = 'Profile ID: ';
 $_['text_payment_method'] = 'Payment method: ';
 $_['text_date_added'] = 'Created: ';
-$_['text_recurring_description'] = 'Description: ';
+$_['text_recurring_description'] = 'Описание: ';
 $_['text_status'] = 'Status: ';
 $_['text_ref'] = 'Reference: ';
 

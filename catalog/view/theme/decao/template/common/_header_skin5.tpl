@@ -51,7 +51,7 @@
                 <div class="links">
                     <span>+</span>
                     <div>
-                        <a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a>
+                        <!--skuptsov<a href="<?php echo $wishlist; ?>" id="wishlist-total"><?php echo $text_wishlist; ?></a>-->
                         <a href="<?php echo $account; ?>"><?php echo $text_account; ?></a>
                         <a href="<?php echo $checkout; ?>"><?php echo $text_checkout; ?></a>
 

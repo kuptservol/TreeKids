@@ -75,11 +75,12 @@
 				</div>
 			<?php } ?>
 
+            <!--skuptsov
 			<?php if ($review_status) { ?>
 				<div class="review">
 					<div><img src="catalog/view/theme/<?php echo $theme; ?>/image/stars-<?php echo $rating; ?>.png" alt="<?php echo $reviews; ?>" /></div>
 				</div>
-			<?php } ?>
+			<?php } ?>-->
 
 			<div class="cart">
 				<div>

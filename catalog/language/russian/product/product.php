@@ -1,18 +1,18 @@
 <?php
 // Text
-$_['text_search']       = 'Search';
+$_['text_search']       = 'Поиск';
 $_['text_brand']        = 'Brand';
 $_['text_manufacturer'] = 'Brand:';
 $_['text_model']        = 'Product Code:';
 $_['text_reward']       = 'Reward Points:'; 
 $_['text_points']       = 'Price in reward points:';
-$_['text_stock']        = 'Availability:';
-$_['text_instock']      = 'In Stock';
+$_['text_stock']        = 'Наличие:';
+$_['text_instock']      = 'есть в наличии';
 $_['text_price']        = 'Цена:'; 
 $_['text_tax']          = 'Ex Tax:'; 
 $_['text_discount']     = '%s or more %s';
-$_['text_option']       = 'Available Options';
-$_['text_qty']          = 'Qty:';
+$_['text_option']       = 'Доступные опции';
+$_['text_qty']          = 'Количество:';
 $_['text_minimum']      = 'This product has a minimum quantity of %s';
 $_['text_or']           = '- OR -';
 $_['text_reviews']      = '%s reviews'; 
@@ -20,7 +20,7 @@ $_['text_write']        = 'Write a review';
 $_['text_no_reviews']   = 'There are no reviews for this product.';
 $_['text_on']           = ' on ';
 $_['text_note']         = '<span style="color: #FF0000;">Note:</span> HTML is not translated!';
-$_['text_share']        = 'Share';
+$_['text_share']        = 'Поделиться';
 $_['text_success']      = 'Thank you for your review. It has been submitted to the webmaster for approval.';
 $_['text_upload']       = 'Your file was successfully uploaded!';
 $_['text_wait']         = 'Please Wait!';
@@ -46,7 +46,7 @@ $_['entry_bad']         = 'Bad';
 $_['entry_captcha']     = 'Введите код с картинки ниже:';
 
 // Tabs
-$_['tab_description']   = 'Description';
+$_['tab_description']   = 'Описание';
 $_['tab_attribute']     = 'Specification';
 $_['tab_review']        = 'Reviews (%s)';
 $_['tab_related']       = 'Related Products'; 

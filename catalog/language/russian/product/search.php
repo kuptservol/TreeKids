@@ -1,15 +1,15 @@
 <?php
 // Heading
-$_['heading_title']     = 'Search';
+$_['heading_title']     = 'Поиск';
 
 // Text
-$_['text_search']       = 'Products meeting the search criteria';
-$_['text_keyword']      = 'Keywords';
-$_['text_category']     = 'All Categories';
-$_['text_sub_category'] = 'Search in subcategories';
-$_['text_critea']       = 'Search Criteria';
-$_['text_empty']        = 'There is no product that matches the search criteria.';
-$_['text_quantity']     = 'Qty:';
+$_['text_search']       = 'Результаты поиска';
+$_['text_keyword']      = 'Ключевые слова';
+$_['text_category']     = 'Все категории';
+$_['text_sub_category'] = 'Поиск в подкатегориях';
+$_['text_critea']       = 'Поисковый запрос';
+$_['text_empty']        = 'Результаты поиска отсутствуют.';
+$_['text_quantity']     = 'Количество:';
 $_['text_manufacturer'] = 'Brand:';
 $_['text_model']        = 'Product Code:'; 
 $_['text_points']       = 'Reward Points:'; 
@@ -33,6 +33,6 @@ $_['text_model_desc']   = 'Model (Z - A)';
 $_['text_limit']        = 'Показать:';
 
 // Entry
-$_['entry_search']      = 'Search:';
-$_['entry_description'] = 'Search in product descriptions';
+$_['entry_search']      = 'Поиск:';
+$_['entry_description'] = 'Поиск в описании';
 ?>

@@ -4,7 +4,7 @@ $_['heading_title']      = 'Your Transactions';
 
 // Column
 $_['column_date_added']  = 'Date Added';
-$_['column_description'] = 'Description';
+$_['column_description'] = 'Описание';
 $_['column_amount']      = 'Amount (%s)';
 
 // Text

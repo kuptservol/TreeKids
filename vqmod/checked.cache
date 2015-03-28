@@ -553,3 +553,6 @@ admin\view\template\total\voucher.tpl
 admin\controller\total\reward.php
 admin\view\template\total\reward.tpl
 admin\view\template\catalog\information_form.tpl
+catalog\controller\product\search.php
+catalog\view\theme\decao\template\product\search.tpl
+admin\view\template\catalog\attribute_form.tpl

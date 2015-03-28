@@ -12,7 +12,7 @@ $_['text_history']     = 'Order History';
 $_['text_download']    = 'Downloads';
 $_['text_cart']        = 'Корзина';
 $_['text_checkout']    = 'Оформить заказ';
-$_['text_search']      = 'Search';
+$_['text_search']      = 'Поиск';
 $_['text_information'] = 'Информация';
 $_['text_contact']     = 'Свяжитесь с нами';
 ?>
