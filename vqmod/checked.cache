@@ -556,3 +556,5 @@ admin\view\template\catalog\information_form.tpl
 catalog\controller\product\search.php
 catalog\view\theme\decao\template\product\search.tpl
 admin\view\template\catalog\attribute_form.tpl
+admin\view\template\module\layerslider\layer.tpl
+admin\view\template\module\layerslider\preview.tpl
