@@ -16,12 +16,12 @@ $_['entry_lastname']    = 'Фамилия:';
 $_['entry_company']     = 'Company:';
 $_['entry_company_id']  = 'Company ID:';
 $_['entry_tax_id']      = 'Tax ID:';
-$_['entry_address_1']   = 'Адрес 1';
+$_['entry_address_1']   = 'Адрес';
 $_['entry_address_2']   = 'Address 2:';
 $_['entry_postcode']    = 'Post Code:';
 $_['entry_city']        = 'City:';
 $_['entry_country']     = 'Country:';
-$_['entry_zone']        = 'Region / State:';
+$_['entry_zone']        = 'Регион:';
 $_['entry_default']     = 'Default Address:';
 
 // Error
@@ -33,6 +33,6 @@ $_['error_vat']         = 'VAT number is invalid!';
 $_['error_address_1']   = 'Address must be between 3 and 128 characters!';
 $_['error_postcode']    = 'Postcode must be between 2 and 10 characters!';
 $_['error_city']        = 'City must be between 2 and 128 characters!';
-$_['error_country']     = 'Please select a country!';
-$_['error_zone']        = 'Please select a region / state!';
+$_['error_country']     = 'Пожалуйста, выберите a country!';
+$_['error_zone']        = 'Пожалуйста, выберите a region / state!';
 ?>

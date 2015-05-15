@@ -15,7 +15,7 @@ $_['text_bank_error']			= 'There was an error processing your request with the b
 $_['text_generic_error']		= 'There was an error processing your request.';
 $_['text_hash_failed']			= 'Hash check failed. Do not try your payment again as the payment status is unknown. Please contact the merchant.';
 $_['text_link']					= 'Please click <a href="%s">here</a> to continue';
-$_['text_select_card']			= 'Please select your card type';
+$_['text_select_card']			= 'Пожалуйста, выберите your card type';
 $_['text_result']				= 'Auth result';
 $_['text_message']				= 'Message';
 $_['text_cvn_result']			= 'CVN result';

@@ -34,6 +34,7 @@
         <?php if ($description) { ?>
         <?php echo $description; ?>
         <?php } ?>
+          <div id="tab-description" class="tab-content"><?php echo $description; ?></div>
       </div>
       <?php } ?>
       <?php if ($categories) { ?>

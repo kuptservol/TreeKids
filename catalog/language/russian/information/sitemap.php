@@ -1,15 +1,15 @@
 <?php
 // Heading
-$_['heading_title']    = 'Site Map';
+$_['heading_title']    = 'Карта сайта';
 
 // Text
-$_['text_special']     = 'Special Offers';
-$_['text_account']     = 'My Account';
-$_['text_edit']        = 'Account Information';
-$_['text_password']    = 'Password';
-$_['text_address']     = 'Address Book';
-$_['text_history']     = 'Order History';
-$_['text_download']    = 'Downloads';
+$_['text_special']     = 'Специальные предложения';
+$_['text_account']     = 'Мой профиль';
+$_['text_edit']        = 'Информация профиля';
+$_['text_password']    = 'Пароль';
+$_['text_address']     = 'Адресная книга';
+$_['text_history']     = 'История заказов';
+$_['text_download']    = 'Загрузки';
 $_['text_cart']        = 'Корзина';
 $_['text_checkout']    = 'Оформить заказ';
 $_['text_search']      = 'Поиск';

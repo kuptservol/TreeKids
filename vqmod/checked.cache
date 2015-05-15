@@ -558,3 +558,4 @@ catalog\view\theme\decao\template\product\search.tpl
 admin\view\template\catalog\attribute_form.tpl
 admin\view\template\module\layerslider\layer.tpl
 admin\view\template\module\layerslider\preview.tpl
+system\helper\vat.php

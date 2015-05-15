@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/catalog/view/theme/decao/template/product/product.tpl" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/image/data/treeKids/trees/Rjabina" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/image/data/treeKids/trees/Ель" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/image/data/treeKids/trees/Ива" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/image/data/treeKids/trees/Клен" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/image/data/treeKids/trees/Липа" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/image/data/treeKids/trees/Лиственница" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/image/data/treeKids/trees/На главную" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/image/data/treeKids/trees/Сосна" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/image/data/treeKids/trees/Тополь" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/image/data/treeKids/trees/Ясень" charset="windows-1251" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
 </project>

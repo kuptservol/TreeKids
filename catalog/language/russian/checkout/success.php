@@ -1,11 +1,11 @@
 <?php
 // Heading
-$_['heading_title'] = 'Your Order Has Been Processed!';
+$_['heading_title'] = 'Ваш заказ успешно обработан!';
 
 // Text
-$_['text_customer'] = '<p>Your order has been successfully processed!</p><p>You can view your order history by going to the <a href="%s">my account</a> page and by clicking on <a href="%s">history</a>.</p><p>If your purchase has an associated download, you can go to the account <a href="%s">downloads</a> page to view them.</p><p>Please direct any questions you have to the <a href="%s">store owner</a>.</p><p>Thanks for shopping with us online!</p>';
-$_['text_guest']    = '<p>Your order has been successfully processed!</p><p>Please direct any questions you have to the <a href="%s">store owner</a>.</p><p>Thanks for shopping with us online!</p>';
+$_['text_customer'] = '<p>Ваш заказ успешно обработан!</p><p>Вы можете посмотреть историю заказов на странице <a href="%s">профиля</a> и нажав на кнопку <a href="%s">истоия</a>.</p><p>Пожалуйста, направляйте все вопросы <a href="%s">владельцу магазина</a>.</p><p>Спасибо, что выбрали нас!</p>';
+$_['text_guest']    = '<p>Ваш заказ успешно обработан!</p><p>Пожалуйста, направляйте все вопросы <a href="%s">владельцу магазина</a>.</p><p>Спасибо, что выбрали нас!</p>';
 $_['text_basket']   = 'Корзина';
 $_['text_checkout'] = 'Оформить заказ';
-$_['text_success']  = 'Success';
+$_['text_success']  = 'Успешно';
 ?>

@@ -2,7 +2,7 @@
 //Headings
 $_['heading_title'] = 'Amazon Payments';
 $_['heading_address'] = 'Please choose a delivery address';
-$_['heading_payment'] = 'Please select a payment method';
+$_['heading_payment'] = 'Пожалуйста, выберите a payment method';
 $_['heading_confirm'] = 'Order summary';
 
 //Text
@@ -18,9 +18,9 @@ $_['text_payment_failed'] = 'Your payment has failed. Please contact the shop ad
 $_['text_payment_success'] = "Your order was successfully placed. Order's details are below";
 
 //Errors
-$_['error_payment_method'] = 'Please select a payment method';
-$_['error_shipping'] = 'Please select a shipping method';
-$_['error_shipping_address'] = 'Please select a delivery address';
+$_['error_payment_method'] = 'Пожалуйста, выберите a payment method';
+$_['error_shipping'] = 'Пожалуйста, выберите a shipping method';
+$_['error_shipping_address'] = 'Пожалуйста, выберите a delivery address';
 $_['error_shipping_methods'] = 'There was an error retrieving your address from Amazon. Please contact the shop administrator for help';
-$_['error_no_shipping_methods'] = 'There are no shipping options to the selected address. Please select a different shipping address';
+$_['error_no_shipping_methods'] = 'There are no shipping options to the selected address. Пожалуйста, выберите a different shipping address';
 ?>

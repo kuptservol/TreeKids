@@ -17,12 +17,12 @@ $_['entry_telephone']   = 'Телефон:';
 $_['entry_fax']         = 'Fax:';
 $_['entry_company']     = 'Company:';
 $_['entry_website']     = 'Web Site:';
-$_['entry_address_1']   = 'Адрес 1';
+$_['entry_address_1']   = 'Адрес';
 $_['entry_address_2']   = 'Address 2:';
 $_['entry_postcode']    = 'Post Code:';
 $_['entry_city']        = 'City:';
 $_['entry_country']     = 'Country:';
-$_['entry_zone']        = 'Region / State:';
+$_['entry_zone']        = 'Регион:';
 
 // Error
 $_['error_exists']      = 'Warning: E-Mail address is already registered!';
@@ -32,7 +32,7 @@ $_['error_email']       = 'E-Mail Address does not appear to be valid!';
 $_['error_telephone']   = 'Телефон должен быть от 3 до 32 символов!';
 $_['error_address_1']   = 'Address 1 must be between 3 and 128 characters!';
 $_['error_city']        = 'City must be between 2 and 128 characters!';
-$_['error_country']     = 'Please select a country!';
-$_['error_zone']        = 'Please select a region / state!';
+$_['error_country']     = 'Пожалуйста, выберите a country!';
+$_['error_zone']        = 'Пожалуйста, выберите a region / state!';
 $_['error_postcode']    = 'Postcode must be between 2 and 10 characters!';
 ?>

@@ -56,6 +56,9 @@ $kuler->language->load('kuler/decao');
   <div class="sale">-<?php echo $kuler->calculateSalePercent($special, $price); ?>%</div>
   <?php } ?>
   <h1><?php echo $heading_title; ?></h1>
+
+    <div id="tab-description" class="tab-content"><?php echo $description; ?></div>
+
   <?php if ($price) { ?>
     <div class="price">
       <?php if (!$special) { ?>
@@ -105,7 +108,7 @@ $kuler->language->load('kuler/decao');
       <?php } else { ?>
         <span><?php echo $text_manufacturer; ?></span> <a href="<?php echo $manufacturers; ?>"><?php echo $manufacturer; ?></a><br />
       <?php } ?>
-    <?php } ?> 
+    <?php } ?>
     <span><?php echo $text_model; ?></span> <?php echo $model; ?><br />
     <?php if ($reward) { ?>
       <span><?php echo $text_reward; ?></span> <?php echo $reward; ?><br />
@@ -282,6 +285,7 @@ $kuler->language->load('kuler/decao');
   <div class="details">
     <div>
         <div class="cart" id="button-cart"><a><span><?php echo $button_cart; ?></span></a></div>
+      <!--<div id="tab-description" class="tab-content"><?php echo $description; ?></div>-->
         <!--<div class="wishlist"><a onclick="addToWishList('<?php echo $product_id; ?>');" class="button"><?php echo $button_wishlist; ?></a></div>-->
         <!-- skuptsov<div class="compare"><a onclick="addToCompare('<?php echo $product_id; ?>');"class="button"><?php echo $button_compare; ?></a></div>-->
     </div>
@@ -298,7 +302,9 @@ $kuler->language->load('kuler/decao');
   <?php } ?>
   </div>
   </div>
-  <div id="tabs" class="htabs"><a href="#tab-description"><?php echo $tab_description; ?></a>
+  <div id="tabs" class="htabs">
+    <a href="#tab-description"><?php echo $tab_description; ?></a>
+    <!--<div class="cart" id="button-cart"><a><span><?php echo $button_cart; ?></span></a></div>-->
     <?php if ($attribute_groups) { ?>
       <a href="#tab-attribute"><?php echo $tab_attribute; ?></a>
     <?php } ?>
@@ -454,22 +460,22 @@ $kuler->language->load('kuler/decao');
     dataType: 'json',
     success: function(json) {
      $('.success, .warning, .attention, information, .error').remove();
-     
+
      if (json['error']) {
       if (json['error']['option']) {
        for (i in json['error']['option']) {
         $('#option-' + i).after('<span class="error">' + json['error']['option'][i] + '</span>');
        }
       }
-     } 
-     
+     }
+
      if (json['success']) {
       kulerAlert('success', json['success']);
       Kuler.cart_product_total += parseInt($('[name="quantity"]').val());
 
       $('#cart-total').html(json['total']);
       $('#cart-product-total').html(Kuler.cart_product_total);
-     } 
+     }
     }
    });
   });
@@ -490,20 +496,20 @@ new AjaxUpload('#button-option-<?php echo $option['product_option_id']; ?>', {
 	},
 	onComplete: function(file, json) {
 		$('#button-option-<?php echo $option['product_option_id']; ?>').attr('disabled', false);
-		
+
 		$('.error').remove();
-		
+
 		if (json['success']) {
 			alert(json['success']);
-			
+
 			$('input[name=\'option[<?php echo $option['product_option_id']; ?>]\']').attr('value', json['file']);
 		}
-		
+
 		if (json['error']) {
 			$('#option-<?php echo $option['product_option_id']; ?>').after('<span class="error">' + json['error'] + '</span>');
 		}
-		
-		$('.loading').remove();	
+
+		$('.loading').remove();
 	}
 });
 //--></script>
@@ -513,13 +519,13 @@ new AjaxUpload('#button-option-<?php echo $option['product_option_id']; ?>', {
 <script type="text/javascript"><!--
 $('#review .pagination a').live('click', function() {
 	$('#review').fadeOut('slow');
-		
+
 	$('#review').load(this.href);
-	
+
 	$('#review').fadeIn('slow');
-	
+
 	return false;
-});			
+});
 
 $('#review').load('index.php?route=product/product/review&product_id=<?php echo $product_id; ?>');
 
@@ -542,10 +548,10 @@ $('#button-review').bind('click', function() {
 			if (data['error']) {
 				$('#review-title').after('<div class="warning">' + data['error'] + '</div>');
 			}
-			
+
 			if (data['success']) {
 				$('#review-title').after('<div class="success">' + data['success'] + '</div>');
-								
+
 				$('input[name=\'name\']').val('');
 				$('textarea[name=\'text\']').val('');
 				$('input[name=\'rating\']:checked').attr('checked', '');
@@ -554,11 +560,11 @@ $('#button-review').bind('click', function() {
 		}
 	});
 });
-//--></script> 
+//--></script>
 <script type="text/javascript"><!--
 $('#tabs a').tabs();
-//--></script> 
-<script type="text/javascript" src="catalog/view/javascript/jquery/ui/jquery-ui-timepicker-addon.js"></script> 
+//--></script>
+<script type="text/javascript" src="catalog/view/javascript/jquery/ui/jquery-ui-timepicker-addon.js"></script>
 <script type="text/javascript"><!--
 $(document).ready(function() {
 	if ($.browser.msie && $.browser.version == 6) {

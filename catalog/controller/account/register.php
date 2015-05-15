@@ -403,12 +403,14 @@ class ControllerAccountRegister extends Controller {
 
 		$this->load->model('localisation/country');
 
-		$country_info = $this->model_localisation_country->getCountry($this->request->post['country_id']);
+		#skuptsov$country_info = $this->model_localisation_country->getCountry($this->request->post['country_id']);
+
+		$country_info = $this->model_localisation_country->getCountry(176);
 
 		if ($country_info) {
-			if ($country_info['postcode_required'] && (utf8_strlen($this->request->post['postcode']) < 2) || (utf8_strlen($this->request->post['postcode']) > 10)) {
+			/*skuptsovif ($country_info['postcode_required'] && (utf8_strlen($this->request->post['postcode']) < 2) || (utf8_strlen($this->request->post['postcode']) > 10)) {
 				$this->error['postcode'] = $this->language->get('error_postcode');
-			}
+			}*/
 
 			// VAT Validation
 			$this->load->helper('vat');
@@ -418,7 +420,7 @@ class ControllerAccountRegister extends Controller {
 			}
 		}
 
-		if ($this->request->post['country_id'] == '') {
+		if (!isset($this->request->post['country_id']) || ($this->request->post['country_id'] == '')) {
 			$this->error['country'] = $this->language->get('error_country');
 		}
 
@@ -439,9 +441,9 @@ class ControllerAccountRegister extends Controller {
 
 			$information_info = $this->model_catalog_information->getInformation($this->config->get('config_account_id'));
 
-			if ($information_info && !isset($this->request->post['agree'])) {
+			/*if ($information_info && !isset($this->request->post['agree'])) {
 				$this->error['warning'] = sprintf($this->language->get('error_agree'), $information_info['title']);
-			}
+			}*/
 		}
 
 		if (!$this->error) {
