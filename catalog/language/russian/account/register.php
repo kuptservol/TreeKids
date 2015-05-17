@@ -1,5 +1,5 @@
-﻿<?php
-// Heading 
+<?php
+// Heading
 $_['heading_title']        = 'Зарегестрировать профиль';
 
 // Text
@@ -8,7 +8,7 @@ $_['text_register']        = 'Зарегестрироваться';
 $_['text_account_already'] = 'Если у вас уже есть профиль, пожалуйста, <a href="%s">войдите</a>.';
 $_['text_your_details']    = 'Персональная информация';
 $_['text_your_address']    = 'Ваш адрес';
-$_['text_newsletter']      = 'Newsletter';
+$_['text_newsletter']      = 'Рассылка';
 $_['text_your_password']   = 'Ваш пароль';
 $_['text_agree']           = 'Я прочитал и согласен с <a class="colorbox" href="%s" alt="%s"><b>%s</b></a>';
 
@@ -17,7 +17,7 @@ $_['entry_firstname']      = 'Имя:';
 $_['entry_lastname']       = 'Фамилия:';
 $_['entry_email']          = 'E-Mail:';
 $_['entry_telephone']      = 'Телефон:';
-$_['entry_fax']            = 'Fax:';
+$_['entry_fax']            = 'Факс:';
 $_['entry_company']        = 'Компания:';
 $_['entry_customer_group'] = 'Business Type:';
 $_['entry_company_id']     = 'Company ID:';
@@ -28,7 +28,7 @@ $_['entry_postcode']       = 'Post Code:';
 $_['entry_city']           = 'Город:';
 $_['entry_country']        = 'Страна:';
 $_['entry_zone']           = 'Регион:';
-$_['entry_newsletter']     = 'Subscribe:';
+$_['entry_newsletter']     = 'Подписаться:';
 $_['entry_password']       = 'Пароль:';
 $_['entry_confirm']        = 'Подтверждение пароля';
 

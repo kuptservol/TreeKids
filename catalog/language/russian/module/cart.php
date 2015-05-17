@@ -3,7 +3,7 @@
 $_['heading_title'] = 'Корзина';
 
 // Text
-$_['text_items']    = '%s item(s) - %s';
+$_['text_items']    = '%s элемент(а/ов) - %s';
 $_['text_empty']    = 'Ваша корзина пуста!';
 $_['text_cart']     = 'Посмотреть корзину';
 $_['text_checkout'] = 'Оформить заказ';

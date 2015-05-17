@@ -8,7 +8,7 @@ $_['column_description'] = 'Описание';
 $_['column_points']      = 'Points';
 
 // Text
-$_['text_account']       = 'Account';
+$_['text_account']       = 'Профиль';
 $_['text_reward']        = 'Reward Points';
 $_['text_total']         = 'Your total number of reward points is:';
 $_['text_empty']         = 'You do not have any reward points!';

@@ -1,17 +1,17 @@
 <?php
 // Heading 
-$_['heading_title']  = 'Change Password';
+$_['heading_title']  = 'Изменить пароль';
 
 // Text
-$_['text_account']   = 'Account';
-$_['text_password']  = 'Your Password';
-$_['text_success']   = 'Success: Your password has been successfully updated.';
+$_['text_account']   = 'Профиль';
+$_['text_password']  = 'Ваш пароль';
+$_['text_success']   = 'Ваш пароль успешно обновлён.';
 
 // Entry
-$_['entry_password'] = 'Password:';
-$_['entry_confirm']  = 'Password Confirm:';
+$_['entry_password'] = 'Пароль:';
+$_['entry_confirm']  = 'Подтверждение пароля:';
 
 // Error
-$_['error_password'] = 'Password must be between 4 and 20 characters!';
-$_['error_confirm']  = 'Password confirmation does not match password!';
+$_['error_password'] = 'Пароль должен быть от 4 до 20 символов!';
+$_['error_confirm']  = 'Подтверждение пароля не совпадает с паролем!';
 ?>

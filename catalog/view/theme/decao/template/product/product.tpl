@@ -303,7 +303,7 @@ $kuler->language->load('kuler/decao');
   </div>
   </div>
   <div id="tabs" class="htabs">
-    <a href="#tab-description"><?php echo $tab_description; ?></a>
+    <!--<a href="#tab-description"><?php echo $tab_description; ?></a>-->
     <!--<div class="cart" id="button-cart"><a><span><?php echo $button_cart; ?></span></a></div>-->
     <?php if ($attribute_groups) { ?>
       <a href="#tab-attribute"><?php echo $tab_attribute; ?></a>
@@ -319,7 +319,7 @@ $kuler->language->load('kuler/decao');
       <a href="#tab-custom-tab-2"><?php echo $kuler->translate($kuler->getSkinOption('custom_tab_2_title')); ?></a>
     <?php } ?>
   </div>
-  <div id="tab-description" class="tab-content"><?php echo $description; ?></div>
+  <!--<div id="tab-description" class="tab-content"><?php echo $description; ?></div>-->
   <?php if ($attribute_groups) { ?>
     <div id="tab-attribute" class="tab-content">
       <table class="attribute table table-striped">

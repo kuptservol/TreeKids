@@ -10,12 +10,12 @@ $_['text_forgotten']   = 'Забытый пароль';
 $_['text_account']     = 'Мой профиль';
 $_['text_edit']        = 'Редактировать профиль';
 $_['text_password']    = 'Пароль';
-$_['text_address']     = 'Address Books';
+$_['text_address']     = 'Адресные книги';
 $_['text_wishlist']    = 'Wish List';
 $_['text_order']       = 'История заказов';
 $_['text_download']    = 'Загрузки';
-$_['text_return']      = 'Returns';
-$_['text_transaction'] = 'Transactions';
-$_['text_newsletter']  = 'Newsletter';
+$_['text_return']      = 'Возвраты';
+$_['text_transaction'] = 'Покупки';
+$_['text_newsletter']  = 'Рассылка';
 $_['text_recurring']   = 'Recurring payments';
 ?>

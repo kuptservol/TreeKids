@@ -19,8 +19,8 @@ $_['text_payment_success'] = "Your order was successfully placed. Order's detail
 
 //Errors
 $_['error_payment_method'] = 'Пожалуйста, выберите a payment method';
-$_['error_shipping'] = 'Пожалуйста, выберите a shipping method';
+$_['error_shipping'] = 'Пожалуйста, выберите a Способ доставки';
 $_['error_shipping_address'] = 'Пожалуйста, выберите a delivery address';
 $_['error_shipping_methods'] = 'There was an error retrieving your address from Amazon. Please contact the shop administrator for help';
-$_['error_no_shipping_methods'] = 'There are no shipping options to the selected address. Пожалуйста, выберите a different shipping address';
+$_['error_no_shipping_methods'] = 'There are no shipping options to the selected address. Пожалуйста, выберите a different Адрес доставки';
 ?>

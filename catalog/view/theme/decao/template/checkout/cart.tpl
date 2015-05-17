@@ -46,7 +46,7 @@
             <tr>
               <td class="image"><?php echo $column_image; ?></td>
               <td class="name"><?php echo $column_name; ?></td>
-              <td class="model"><?php echo $column_model; ?></td>
+              <!--<td class="model"><?php echo $column_model; ?></td>-->
               <td class="quantity"><?php echo $column_quantity; ?></td>
               <td class="price"><?php echo $column_price; ?></td>
               <td class="total"><?php echo $column_total; ?></td>
@@ -70,7 +70,7 @@
                   <?php if ($product['reward']) { ?>
                     <small><?php echo $product['reward']; ?></small>
                   <?php } ?></td>
-                <td class="model"><?php echo $product['model']; ?></td>
+                <!--<td class="model"><?php echo $product['model']; ?></td>-->
                 <td class="quantity"><input type="text" name="quantity[<?php echo $product['key']; ?>]" value="<?php echo $product['quantity']; ?>" size="1" />
                   &nbsp;
                   <input type="image" src="catalog/view/theme/default/image/update.png" alt="<?php echo $button_update; ?>" title="<?php echo $button_update; ?>" />
@@ -97,7 +97,7 @@
       <?php if ($coupon_status || $voucher_status || $reward_status || $shipping_status) { ?>
        <!--skuptsov <h2><?php echo $text_next; ?></h2>-->
         <div class="content">
-          <p><?php echo $text_next_choice; ?></p>
+         <!-- <p><?php echo $text_next_choice; ?></p>-->
           <table class="radio">
             <?php if ($coupon_status) { ?>
               <tr class="highlight">
@@ -170,7 +170,7 @@
             </form>
           </div>
           <div id="shipping" class="content" style="display: <?php echo ($next == 'shipping' ? 'block' : 'none'); ?>;">
-            <p><?php echo $text_shipping_detail; ?></p>
+            <!-- <p><?php echo $text_shipping_detail; ?></p>
             <table class="table">
               <tr>
                 <td><span class="required">*</span> <?php echo $entry_country; ?></td>
@@ -194,7 +194,7 @@
                 <td><span id="postcode-required" class="required">*</span> <?php echo $entry_postcode; ?></td>
                 <td><input type="text" name="postcode" value="<?php echo $postcode; ?>" /></td>
               </tr>
-            </table>
+            </table>-->
             <input type="button" value="<?php echo $button_quote; ?>" id="button-quote" class="button" />
           </div>
         </div>
@@ -234,7 +234,8 @@ $('#button-quote').live('click', function() {
 	$.ajax({
 		url: 'index.php?route=checkout/cart/quote',
 		type: 'post',
-		data: 'country_id=' + $('select[name=\'country_id\']').val() + '&zone_id=' + $('select[name=\'zone_id\']').val() + '&postcode=' + encodeURIComponent($('input[name=\'postcode\']').val()),
+		//skuptsov data: 'country_id=' + $('select[name=\'country_id\']').val() + '&zone_id=' + $('select[name=\'zone_id\']').val() + '&postcode=' + encodeURIComponent($('input[name=\'postcode\']').val()),
+        data: 'country_id=176&zone_id=2761&postcode=55555',
 		dataType: 'json',		
 		beforeSend: function() {
 			$('#button-quote').attr('disabled', true);

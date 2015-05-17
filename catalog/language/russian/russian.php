@@ -43,13 +43,13 @@ $_['button_reorder']        = 'Reorder';
 $_['button_return']         = 'Вернуться';
 $_['button_shopping']       = 'Продолжить просмотр';
 $_['button_search']         = 'Найти';
-$_['button_shipping']       = 'Apply Shipping';
+$_['button_shipping']       = 'Применить способ доставки';
 $_['button_guest']          = 'Guest Checkout';
 $_['button_view']           = 'Посмотреть';
 $_['button_voucher']        = 'Apply Voucher';
 $_['button_upload']         = 'Upload File';
 $_['button_reward']         = 'Apply Points';
-$_['button_quote']          = 'Get Quotes';
+$_['button_quote']          = 'Выбрать способ';
 
 // Error
 $_['error_upload_1']        = 'Warning: The uploaded file exceeds the upload_max_filesize directive in php.ini!';

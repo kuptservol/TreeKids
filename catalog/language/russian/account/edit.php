@@ -13,7 +13,7 @@ $_['entry_firstname']  = 'Имя:';
 $_['entry_lastname']   = 'Фамилия:';
 $_['entry_email']      = 'E-Mail:';
 $_['entry_telephone']  = 'Телефон:';
-$_['entry_fax']        = 'Fax:';
+$_['entry_fax']        = 'Факс:';
 
 // Error
 $_['error_exists']     = 'E-Mail уже зарегестирован!';

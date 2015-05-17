@@ -57,10 +57,10 @@
                 <span class="error"><?php echo $error_telephone; ?></span>
                 <?php } ?></td>
             </tr>
-           <!--skuptsov <tr>
-              <td><?php echo $entry_fax; ?></td>
-              <td><input type="text" name="fax" value="<?php echo $fax; ?>" /></td>
-            </tr>-->
+            <tr>
+              <!--<td><?php echo $entry_fax; ?></td>-->
+              <td><input type="hidden" name="fax" value="<?php echo $fax; ?>" /></td>
+            </tr>
           </table>
           </div>
         </div>
@@ -68,10 +68,10 @@
           <h2><?php echo $text_your_address; ?></h2>
           <div class="table-responsive">
             <table class="form">
-            <!--<tr>
-              <td><?php echo $entry_company; ?></td>
-              <td><input type="text" name="company" value="<?php echo $company; ?>" /></td>
-            </tr>-->
+            <tr>
+              <!--<td><?php echo $entry_company; ?></td>-->
+              <td><input type="hidden" name="company" value="<?php echo $company; ?>" /></td>
+            </tr>
             <tr style="display: <?php echo (count($customer_groups) > 1 ? 'table-row' : 'none'); ?>;">
               <td><?php echo $entry_customer_group; ?></td>
               <td><?php foreach ($customer_groups as $customer_group) { ?>
@@ -86,13 +86,13 @@
                 <?php } ?>
                 <?php } ?></td>
             </tr>
-           <!-- <tr id="company-id-display">
-              <td><span id="company-id-required" class="required">*</span> <?php echo $entry_company_id; ?></td>
-              <td><input type="text" name="company_id" value="<?php echo $company_id; ?>" />
+            <tr id="company-id-display">
+              <!--<td><span id="company-id-required" class="required">*</span> <?php echo $entry_company_id; ?></td>-->
+              <td><input type="hidden" name="company_id" value="<?php echo $company_id; ?>" />
                 <?php if ($error_company_id) { ?>
                 <span class="error"><?php echo $error_company_id; ?></span>
                 <?php } ?></td>
-            </tr>-->
+            </tr>
             <tr id="tax-id-display">
               <td><span id="tax-id-required" class="required">*</span> <?php echo $entry_tax_id; ?></td>
               <td><input type="text" name="tax_id" value="<?php echo $tax_id; ?>" />
@@ -107,10 +107,10 @@
                 <span class="error"><?php echo $error_address_1; ?></span>
                 <?php } ?></td>
             </tr>
-           <!-- <tr>
-              <td><?php echo $entry_address_2; ?></td>
-              <td><input type="text" name="address_2" value="<?php echo $address_2; ?>" /></td>
-            </tr>-->
+            <tr>
+              <!--<td><?php echo $entry_address_2; ?></td>-->
+              <td><input type="hidden" name="address_2" value="<?php echo $address_2; ?>" /></td>
+            </tr>
             <tr>
               <td><span class="required">*</span> <?php echo $entry_city; ?></td>
               <td><input type="text" name="city" value="<?php echo $city; ?>" />
@@ -118,19 +118,19 @@
                 <span class="error"><?php echo $error_city; ?></span>
                 <?php } ?></td>
             </tr>
-           <!-- <tr>
-              <td><span id="postcode-required" class="required">*</span> <?php echo $entry_postcode; ?></td>
-              <td><input type="text" name="postcode" value="<?php echo $postcode; ?>" />
+            <tr>
+              <!--<td><span id="postcode-required" class="required">*</span> <?php echo $entry_postcode; ?></td>-->
+              <td><input type="hidden" name="postcode" value="<?php echo $postcode; ?>" />
                 <?php if ($error_postcode) { ?>
                 <span class="error"><?php echo $error_postcode; ?></span>
                 <?php } ?></td>
-            </tr>-->
-            <!--<tr>
+            </tr>
+            <tr>
               <td><span class="required">*</span> <?php echo $entry_country; ?></td>
               <td><select name="country_id">
                   <option value=""><?php echo $text_select; ?></option>
                   <?php foreach ($countries as $country) { ?>
-                  <?php if ($country['country_id'] == $country_id) { ?>
+                  <?php if ($country['country_id'] == 176) { ?>
                   <option value="<?php echo $country['country_id']; ?>" selected="selected"><?php echo $country['name']; ?></option>
                   <?php } else { ?>
                   <option value="<?php echo $country['country_id']; ?>"><?php echo $country['name']; ?></option>
@@ -140,15 +140,15 @@
                 <?php if ($error_country) { ?>
                 <span class="error"><?php echo $error_country; ?></span>
                 <?php } ?></td>
-            </tr>->
-           <!-- <tr>
+            </tr>
+            <tr>
               <td><span class="required">*</span> <?php echo $entry_zone; ?></td>
               <td><select name="zone_id">
                 </select>
                 <?php if ($error_zone) { ?>
                 <span class="error"><?php echo $error_zone; ?></span>
                 <?php } ?></td>
-            </tr>-->
+            </tr>
           </table>
           </div>
         </div>
@@ -173,7 +173,7 @@
             </tr>
           </table>
         </div>
-       <!-- <div class="col-md-6 col-sm-12 content">
+        <div class="col-md-6 col-sm-12 content">
           <h2><?php echo $text_newsletter; ?></h2>
           <table class="form">
             <tr>
@@ -191,16 +191,16 @@
                 <?php } ?></td>
             </tr>
           </table>
-        </div>-->
+        </div>
       </div>
-      <!--<?php if ($text_agree) { ?>
+      <?php if ($text_agree) { ?>
       <div class="col-sm-12 buttons">
         <?php if ($agree) { ?>
           <input type="checkbox" name="agree" value="1" checked="checked" />
         <?php } else { ?>
           <input type="checkbox" name="agree" value="1" />
         <?php } ?>
-        <?php echo $text_agree; ?>-->
+        <?php echo $text_agree; ?>
         <input type="submit" value="<?php echo $button_continue; ?>" class="button" />
       <?php } else { ?>
       <div class="col-sm-12 buttons">
@@ -213,7 +213,7 @@
     <?php echo $content_bottom; ?></div>
   </div>
 </div>
-<script type="text/javascript"><!--
+<script type="text/javascript">
 $('input[name=\'customer_group_id\']:checked').live('change', function() {
 	var customer_group = [];
 	

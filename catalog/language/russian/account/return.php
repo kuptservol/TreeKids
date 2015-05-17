@@ -3,7 +3,7 @@
 $_['heading_title']      = 'Product Returns';
 
 // Text
-$_['text_account']       = 'Account';
+$_['text_account']       = 'Профиль';
 $_['text_return']        = 'Return Information';
 $_['text_return_detail'] = 'Return Details';
 $_['text_description']   = '<p>Please complete the form below to request an RMA number.</p>';
@@ -51,13 +51,13 @@ $_['entry_captcha']      = 'Введите код с картинки ниже:'
 // Error
 $_['text_error']         = 'The returns you requested could not be found!';
 $_['error_order_id']     = 'Order ID required!';
-$_['error_firstname']    = 'Имя must be between 1 and 32 characters!';
+$_['error_firstname']    = 'Имя должно быть от 1 до 32 символов!';
 $_['error_lastname']     = 'Фамилия должна быть от 1 до 32 символов!';
 $_['error_email']        = 'E-Mail Address does not appear to be valid!';
 $_['error_telephone']    = 'Телефон должен быть от 3 до 32 символов!';
 $_['error_product']      = 'Product Name must be greater than 3 and less than 255 characters!';
 $_['error_model']        = 'Product Model must be greater than 3 and less than 64 characters!';
 $_['error_reason']       = 'You must select at a return product reason!';
-$_['error_captcha']      = 'Verification code does not match the image!';
+$_['error_captcha']      = 'Введённый код не совпадает с кодом на картинке';
 $_['error_agree']        = 'Warning: You must agree to the %s!';
 ?>

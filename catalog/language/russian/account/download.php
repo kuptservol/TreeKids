@@ -3,7 +3,7 @@
 $_['heading_title']   = 'Account Downloads';
 
 // Text
-$_['text_account']    = 'Account';
+$_['text_account']    = 'Профиль';
 $_['text_downloads']  = 'Downloads';
 $_['text_order']      = 'Order ID:';
 $_['text_date_added'] = 'Date Added:';

@@ -3770,7 +3770,7 @@ table.radio td {
 Product Info
 ----------------------------------------------*/
 .product-info {
-  color: #868686;
+  /*color: #868686;*/
 }
 .product-info .left,
 .product-info .right {

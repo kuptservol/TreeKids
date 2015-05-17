@@ -316,7 +316,8 @@ jQuery(document).ready(function ($) {
 		var $this = $(this);
 
 		return $.ajax({
-			url: 'index.php?route=checkout/checkout/country&country_id=' + this.value,
+			//skuptsov url: 'index.php?route=checkout/checkout/country&country_id=' + this.value,
+			url: 'index.php?route=checkout/checkout/country&country_id=176',
 			dataType: 'json',
 			beforeSend: function() {
 				$this.after(Kuler.waitHtml);
@@ -337,7 +338,8 @@ jQuery(document).ready(function ($) {
 					for (i = 0; i < json['zone'].length; i++) {
 						html += '<option value="' + json['zone'][i]['zone_id'] + '"';
 
-						if (json['zone'][i]['zone_id'] == '') {
+						//if (json['zone'][i]['zone_id'] == '') {
+						if (json['zone'][i]['zone_id'] == '2761'){
 							html += ' selected="selected"';
 						}
 
@@ -352,6 +354,8 @@ jQuery(document).ready(function ($) {
 				$zone
 					.html(html)
 					.val($zone.data('value'));
+
+				console.log($zone)
 			},
 			error: function(xhr, ajaxOptions, thrownError) {
 				alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);

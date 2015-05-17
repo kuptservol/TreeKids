@@ -3,7 +3,7 @@
 $_['heading_title']                 = 'Affiliate Program';
 
 // Text
-$_['text_account']                  = 'Account';
+$_['text_account']                  = 'Профиль';
 $_['text_login']                    = 'Войти';
 $_['text_description']              = '<p>%s affiliate program is free and enables members to earn revenue by placing a link or links on their web site which advertises %s or specific products on it. Any sales made to customers who have clicked on those links will earn the affiliate commission. The standard commission rate is currently %s.</p><p>For more information, visit our FAQ page or see our Affiliate terms &amp; conditions.</p>';
 $_['text_new_affiliate']            = 'New Affiliate';
@@ -14,7 +14,7 @@ $_['text_forgotten']                = 'Forgotten Password';
 
 // Entry
 $_['entry_email']                   = 'Affiliate E-Mail:';
-$_['entry_password']                = 'Password:';
+$_['entry_password']                = 'Пароль:';
 
 // Error
 $_['error_login']                   = 'Warning: No match for E-Mail Address and/or Password.';

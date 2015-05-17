@@ -3,10 +3,10 @@
 $_['heading_title']             = 'Способ оплаты';
 
 // Text
-$_['text_account']              = 'Account';
+$_['text_account']              = 'Профиль';
 $_['text_payment']              = 'Payment';
 $_['text_your_payment']         = 'Payment Information';
-$_['text_your_password']        = 'Your Password';
+$_['text_your_password']        = 'Ваш пароль';
 $_['text_cheque']               = 'Cheque';
 $_['text_paypal']               = 'PayPal';
 $_['text_bank']                 = 'Bank Transfer';

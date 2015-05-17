@@ -3,7 +3,7 @@
 $_['heading_title']   = 'Забыли пароль?';
 
 // Text
-$_['text_account']    = 'Account';
+$_['text_account']    = 'Профиль';
 $_['text_forgotten']  = 'Forgotten Password';
 $_['text_your_email'] = 'Ваш e-mail адрес';
 $_['text_email']      = 'Enter the e-mail address associated with your account. Click submit to have your password e-mailed to you';
